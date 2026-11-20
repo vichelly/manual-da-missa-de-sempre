@@ -1,0 +1,35 @@
+.cue {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  font-style: italic;
+  margin: var(--space-1) 0 0;
+}
+
+.cueLabel {
+  font-style: normal;
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.actions {
+  margin: 6px 0 0;
+  padding-left: 1.2em;
+}
+
+.actions li {
+  margin: 2px 0;
+}
+
+.says {
+  margin: var(--space-1) 0 0;
+  font-style: italic;
+  color: var(--color-accent);
+}
+
+.attention {
+  margin: 6px 0 0;
+  background: var(--color-accent-soft);
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+  font-size: 0.95rem;
+}

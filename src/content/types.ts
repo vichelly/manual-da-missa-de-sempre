@@ -62,3 +62,17 @@ export interface ExaminationSection {
   title: string;
   questions: string[];
 }
+
+/** One moment in the duties of a given acolyte when two serve together. */
+export interface RoleStep {
+  title: string;
+  /** What tells the acolyte that this moment has come. */
+  cue?: string;
+  actions: string[];
+  says?: string;
+  bell?: string;
+  /** Something easy to forget at this moment. */
+  attention?: string;
+}
+
+export type ServerRole = 'epistle' | 'gospel';

@@ -1,13 +1,18 @@
-import { useState } from 'react';
-import { SERVING_STEPS } from '@/content/acolyte/servingSteps';
+import { useState, type ReactNode } from 'react';
 import { shuffle } from '@/domain/random';
 import { Button, Card, FlipCard, Label, Row } from '@/ui';
-import { StepDetails } from '../guide/StepDetails';
 import styles from './ActionCards.module.css';
 
+interface ActionCardsProps<T> {
+  steps: readonly T[];
+  getTitle: (step: T) => string;
+  renderBack: (step: T) => ReactNode;
+  hint: string;
+}
+
 /** Flashcards: the moment of the Mass on the front, what the acolyte does on the back. */
-export function ActionCards() {
-  const [deck, setDeck] = useState(SERVING_STEPS);
+export function ActionCards<T>({ steps, getTitle, renderBack, hint }: ActionCardsProps<T>) {
+  const [deck, setDeck] = useState<readonly T[]>(steps);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const step = deck[index];
@@ -18,12 +23,12 @@ export function ActionCards() {
   };
 
   const reshuffle = () => {
-    setDeck(shuffle(SERVING_STEPS));
+    setDeck(shuffle(steps));
     setIndex(0);
     setFlipped(false);
   };
 
-  if (!step) return null;
+  if (step === undefined) return null;
 
   return (
     <Card>
@@ -41,17 +46,16 @@ export function ActionCards() {
         front={
           <>
             <Label>Momento</Label>
-            <strong className={styles.moment}>{step.title}</strong>
+            <strong className={styles.moment}>{getTitle(step)}</strong>
           </>
         }
         back={
           <div className={styles.back}>
-            <StepDetails step={step} showSilentBell />
+            <Label>{getTitle(step)}</Label>
+            {renderBack(step)}
           </div>
         }
-        hint={
-          flipped ? 'Toque para voltar' : 'Onde fico? Onde está o missal? O que faço? Toca o sino?'
-        }
+        hint={flipped ? 'Toque para voltar' : hint}
       />
       <Row>
         <Button variant="ghost" onClick={() => go(-1)}>

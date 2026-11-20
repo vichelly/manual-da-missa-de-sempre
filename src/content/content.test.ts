@@ -1,3 +1,4 @@
+import { EPISTLE_SERVER_STEPS } from './acolyte/twoServers';
 import { CONFITEOR_TEXT } from './acolyte/confiteor';
 import { ACOLYTE_DIALOGUE } from './acolyte/dialogue';
 import { SERVING_STEPS } from './acolyte/servingSteps';
@@ -38,5 +39,13 @@ describe('liturgical content', () => {
         }
       }
     }
+  });
+});
+
+describe('two acolytes', () => {
+  it('lists the Epistle-side duties in order, each with at least one action', () => {
+    expect(EPISTLE_SERVER_STEPS.length).toBeGreaterThan(10);
+    expect(EPISTLE_SERVER_STEPS[0]?.title).toBe('Confiteor do sacerdote');
+    expect(EPISTLE_SERVER_STEPS.every((step) => step.actions.length > 0)).toBe(true);
   });
 });
