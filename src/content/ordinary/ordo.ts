@@ -1,7 +1,7 @@
 // Liturgical content. Texts are in Portuguese and Latin; edit them here.
 import type { OrdoSection } from '../types';
 
-/** The Ordinary of the Low Mass (Missal of 1962), Latin and Portuguese. */
+/** The Ordinary of the Low Mass under the rubrics of St. Pius X (Divino Afflatu), Latin and Portuguese. */
 export const ORDO_MISSAE: OrdoSection[] = [
   {
     title: 'Entrada do sacerdote',
@@ -254,7 +254,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
     title: 'Gloria',
     posture: 'kneeling',
     postureNote:
-      'Omitido no Advento, na Septuagésima, na Quaresma e nas Missas de Réquiem. Na Missa cantada, de pé durante a entoação.',
+      'Dito nos domingos (fora do Advento e do tempo da Septuagésima à Páscoa) e nas festas; omitido nas férias, nas vigílias, na maior parte das Missas votivas e nas Missas de Réquiem. Na Missa cantada, de pé durante a entoação.',
     lines: [
       {
         kind: 'priest',
@@ -287,7 +287,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'proper',
-        text: 'Coleta (oração do dia): próprio do dia.',
+        text: 'Coleta (oração do dia): próprio do dia. Com frequência seguem-se outras orações (comemorações): a primeira tem conclusão própria e as demais terminam juntas numa só conclusão. O ministro responde Amen no fim da primeira e no fim da última.',
       },
       {
         kind: 'priest',
@@ -512,7 +512,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
     lines: [
       {
         kind: 'rubric',
-        text: 'No lado da Epístola, o ministro derrama água sobre os dedos do sacerdote. Salmo 25:',
+        text: 'No lado da Epístola, o ministro derrama água sobre os dedos do sacerdote. Salmo 25 (o Gloria Patri final é omitido no Tempo da Paixão e nas Missas de Réquiem):',
       },
       {
         kind: 'priest',
@@ -664,9 +664,9 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Communicantes, et memoriam venerantes, in primis gloriosae semper Virginis Mariae, Genetricis Dei et Domini nostri Iesu Christi: sed et beati Ioseph, eiusdem Virginis Sponsi, et beatorum Apostolorum ac Martyrum tuorum, Petri et Pauli, Andreae, Iacobi, Ioannis, Thomae, Iacobi, Philippi, Bartholomaei, Matthaei, Simonis et Thaddaei: Lini, Cleti, Clementis, Xysti, Cornelii, Cypriani, Laurentii, Chrysogoni, Ioannis et Pauli, Cosmae et Damiani: et omnium Sanctorum tuorum; quorum meritis precibusque concedas, ut in omnibus protectionis tuae muniamur auxilio. Per eundem Christum Dominum nostrum. Amen.',
+          'Communicantes, et memoriam venerantes, in primis gloriosae semper Virginis Mariae, Genetricis Dei et Domini nostri Iesu Christi: sed et beatorum Apostolorum ac Martyrum tuorum, Petri et Pauli, Andreae, Iacobi, Ioannis, Thomae, Iacobi, Philippi, Bartholomaei, Matthaei, Simonis et Thaddaei: Lini, Cleti, Clementis, Xysti, Cornelii, Cypriani, Laurentii, Chrysogoni, Ioannis et Pauli, Cosmae et Damiani: et omnium Sanctorum tuorum; quorum meritis precibusque concedas, ut in omnibus protectionis tuae muniamur auxilio. Per eundem Christum Dominum nostrum. Amen.',
         translation:
-          'Em comunhão e venerando a memória, primeiramente, da gloriosa sempre Virgem Maria, Mãe de Deus e Senhor nosso Jesus Cristo, e também de São José, Esposo da mesma Virgem, e dos vossos bem-aventurados Apóstolos e Mártires Pedro e Paulo, André, Tiago, João, Tomé, Tiago, Filipe, Bartolomeu, Mateus, Simão e Tadeu, Lino, Cleto, Clemente, Xisto, Cornélio, Cipriano, Lourenço, Crisógono, João e Paulo, Cosme e Damião, e de todos os vossos Santos: por seus méritos e preces, concedei-nos ser sempre fortalecidos com o auxílio da vossa proteção. Pelo mesmo Cristo, nosso Senhor. Amém.',
+          'Em comunhão e venerando a memória, primeiramente, da gloriosa sempre Virgem Maria, Mãe de Deus e Senhor nosso Jesus Cristo, e também dos vossos bem-aventurados Apóstolos e Mártires Pedro e Paulo, André, Tiago, João, Tomé, Tiago, Filipe, Bartolomeu, Mateus, Simão e Tadeu, Lino, Cleto, Clemente, Xisto, Cornélio, Cipriano, Lourenço, Crisógono, João e Paulo, Cosme e Damião, e de todos os vossos Santos: por seus méritos e preces, concedei-nos ser sempre fortalecidos com o auxílio da vossa proteção. Pelo mesmo Cristo, nosso Senhor. Amém.',
       },
       {
         kind: 'rubric',
@@ -955,7 +955,41 @@ export const ORDO_MISSAE: OrdoSection[] = [
     lines: [
       {
         kind: 'rubric',
-        text: 'Onde é costume, o ministro reza aqui o Confiteor e o sacerdote diz o Misereatur e o Indulgentiam (as rubricas de 1962 retiraram este Confiteor).',
+        text: 'Se há fiéis para comungar, o ministro, inclinado, reza o Confiteor:',
+      },
+      {
+        kind: 'server',
+        latin:
+          'Confiteor Deo omnipotenti, beatae Mariae semper Virgini, beato Michaeli Archangelo, beato Ioanni Baptistae, sanctis Apostolis Petro et Paulo, omnibus Sanctis, et tibi, pater: quia peccavi nimis cogitatione, verbo et opere: mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper Virginem, beatum Michaelem Archangelum, beatum Ioannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et te, pater, orare pro me ad Dominum Deum nostrum.',
+        translation: '(O mesmo Confiteor das orações ao pé do altar, com “a vós, padre”.)',
+      },
+      {
+        kind: 'rubric',
+        text: 'O sacerdote, voltado para os fiéis:',
+      },
+      {
+        kind: 'priest',
+        latin:
+          'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam aeternam.',
+        translation:
+          'Deus todo-poderoso tenha misericórdia de vós, perdoe os vossos pecados e vos conduza à vida eterna.',
+      },
+      {
+        kind: 'server',
+        latin: 'Amen.',
+        translation: 'Amém.',
+      },
+      {
+        kind: 'priest',
+        latin:
+          'Indulgentiam, ✠ absolutionem, et remissionem peccatorum vestrorum tribuat vobis omnipotens et misericors Dominus.',
+        translation:
+          'O Senhor todo-poderoso e misericordioso vos conceda o perdão, ✠ a absolvição e a remissão dos vossos pecados.',
+      },
+      {
+        kind: 'server',
+        latin: 'Amen.',
+        translation: 'Amém.',
       },
       {
         kind: 'rubric',
@@ -1025,7 +1059,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'proper',
-        text: 'Pós-comunhão: próprio do dia.',
+        text: 'Pós-comunhão: próprio do dia, com tantas orações quantas houve na Coleta.',
       },
       {
         kind: 'priest',
@@ -1066,7 +1100,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'rubric',
-        text: 'Nos dias sem Gloria: Benedicamus Domino. ℟ Deo gratias. Nas Missas de Réquiem: Requiescant in pace. ℟ Amen (e não há bênção).',
+        text: 'Nas Missas sem Gloria, o sacerdote diz, voltado para o altar: Benedicamus Domino. ℟ Deo gratias. Nas Missas de Réquiem: Requiescant in pace. ℟ Amen (e não há bênção).',
       },
       {
         kind: 'rubric',
@@ -1111,6 +1145,10 @@ export const ORDO_MISSAE: OrdoSection[] = [
         translation: 'E com o teu espírito.',
       },
       {
+        kind: 'rubric',
+        text: 'Normalmente é o início do Evangelho de São João. Quando se faz a comemoração de um domingo, de uma féria maior ou de uma vigília que tem Evangelho próprio, lê-se esse Evangelho no missal, e o ministro antes o leva ao lado do Evangelho.',
+      },
+      {
         kind: 'priest',
         latin: '✠ Initium sancti Evangelii secundum Ioannem.',
         translation: '✠ Início do santo Evangelho segundo João.',
@@ -1146,13 +1184,87 @@ export const ORDO_MISSAE: OrdoSection[] = [
     ],
   },
   {
-    title: 'Depois da Missa',
+    title: 'Orações depois da Missa rezada',
     posture: 'kneeling',
-    postureNote: 'Onde é costume, rezam-se de joelhos as orações depois da Missa rezada.',
+    postureNote:
+      'Prescritas depois de toda Missa rezada (Leão XIII e Pio XI). O sacerdote as reza ajoelhado no degrau do altar, alternando com os fiéis; podem ser ditas em português.',
     lines: [
       {
         kind: 'rubric',
-        text: 'Em muitas capelas, o sacerdote reza ao pé do altar, com os fiéis, três Ave-Marias, a Salve Rainha, a oração pela Igreja e a oração a São Miguel Arcanjo. Depois, os fiéis ficam de pé quando o sacerdote se retira.',
+        text: 'Três vezes:',
+      },
+      {
+        kind: 'priest',
+        latin:
+          'Ave Maria, gratia plena, Dominus tecum; benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus.',
+        translation:
+          'Ave Maria, cheia de graça, o Senhor é convosco; bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, Jesus.',
+      },
+      {
+        kind: 'server',
+        latin:
+          'Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.',
+        translation:
+          'Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém.',
+      },
+      {
+        kind: 'priest',
+        latin:
+          'Salve, Regina, Mater misericordiae; vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Hevae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria.',
+        translation:
+          'Salve, Rainha, Mãe de misericórdia, vida, doçura e esperança nossa, salve! A vós bradamos, os degredados filhos de Eva. A vós suspiramos, gemendo e chorando neste vale de lágrimas. Eia, pois, advogada nossa, esses vossos olhos misericordiosos a nós volvei. E depois deste desterro mostrai-nos Jesus, bendito fruto do vosso ventre. Ó clemente, ó piedosa, ó doce sempre Virgem Maria.',
+      },
+      {
+        kind: 'priest',
+        latin: 'Ora pro nobis, sancta Dei Genetrix.',
+        translation: 'Rogai por nós, santa Mãe de Deus.',
+      },
+      {
+        kind: 'server',
+        latin: 'Ut digni efficiamur promissionibus Christi.',
+        translation: 'Para que sejamos dignos das promessas de Cristo.',
+      },
+      {
+        kind: 'priest',
+        latin:
+          'Oremus. Deus, refugium nostrum et virtus, populum ad te clamantem propitius respice; et intercedente gloriosa et immaculata Virgine Dei Genetrice Maria, cum beato Ioseph, eius Sponso, ac beatis Apostolis tuis Petro et Paulo, et omnibus Sanctis, quas pro conversione peccatorum, pro libertate et exaltatione sanctae Matris Ecclesiae, preces effundimus, misericors et benignus exaudi. Per eundem Christum Dominum nostrum.',
+        translation:
+          'Oremos. Ó Deus, nosso refúgio e nossa força, olhai propício para o povo que a Vós clama; e, pela intercessão da gloriosa e imaculada Virgem Maria, Mãe de Deus, de São José, seu Esposo, dos vossos bem-aventurados Apóstolos Pedro e Paulo e de todos os Santos, ouvi, misericordioso e benigno, as preces que Vos dirigimos pela conversão dos pecadores e pela liberdade e exaltação da santa Mãe Igreja. Pelo mesmo Cristo, nosso Senhor.',
+      },
+      {
+        kind: 'server',
+        latin: 'Amen.',
+        translation: 'Amém.',
+      },
+      {
+        kind: 'priest',
+        latin:
+          'Sancte Michael Archangele, defende nos in proelio; contra nequitiam et insidias diaboli esto praesidium. Imperet illi Deus, supplices deprecamur: tuque, Princeps militiae caelestis, Satanam aliosque spiritus malignos, qui ad perditionem animarum pervagantur in mundo, divina virtute in infernum detrude.',
+        translation:
+          'São Miguel Arcanjo, defendei-nos no combate; sede o nosso refúgio contra a maldade e as ciladas do demônio. Ordene-lhe Deus, instantemente o pedimos; e vós, Príncipe da milícia celeste, pela virtude divina, precipitai no inferno Satanás e os outros espíritos malignos que andam pelo mundo para perder as almas.',
+      },
+      {
+        kind: 'server',
+        latin: 'Amen.',
+        translation: 'Amém.',
+      },
+      {
+        kind: 'rubric',
+        text: 'Costuma-se acrescentar três vezes (invocação concedida por São Pio X):',
+      },
+      {
+        kind: 'priest',
+        latin: 'Cor Iesu sacratissimum,',
+        translation: 'Sacratíssimo Coração de Jesus,',
+      },
+      {
+        kind: 'server',
+        latin: 'Miserere nobis.',
+        translation: 'Tende piedade de nós.',
+      },
+      {
+        kind: 'rubric',
+        text: 'O sacerdote se levanta e se retira; os fiéis ficam de pé enquanto ele sai.',
       },
     ],
   },

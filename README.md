@@ -1,6 +1,6 @@
 # Manual da Missa de Sempre
 
-Site de estudo da Missa tradicional (Missal Romano de 1962):
+Site de estudo da Missa tradicional segundo as rubricas de São Pio X (_Divino Afflatu_, 1911), anteriores às reformas de 1955–1962:
 
 - **Missa do acólito**: todas as respostas da Missa rezada, orações ao pé do altar, Confiteor (estrutura, treino por blocos e prova escrita), guia de movimentos com lados do altar e sinos, cartões e quiz.
 - **Ordinário da Missa**: texto completo em latim e português com as posições dos fiéis, exame de consciência e os mandamentos com exercícios de memória.
@@ -57,4 +57,4 @@ Para usar o **Cloudflare Pages**: conecte o repositório, use `npm run build` co
 
 ## Conteúdo
 
-As posições e alguns costumes (toques do sino, segundo Confiteor, orações depois da Missa) variam de capela para capela; siga o livro e o costume da sua capela. As traduções portuguesas são próprias deste projeto.
+As posições e alguns costumes (toques do sino, gestos dos acólitos) variam de capela para capela; siga o livro e o costume da sua capela. As traduções portuguesas são próprias deste projeto.

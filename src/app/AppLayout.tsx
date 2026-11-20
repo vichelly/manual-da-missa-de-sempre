@@ -10,7 +10,7 @@ export function AppLayout() {
           ✠
         </div>
         <h1 className={styles.title}>Manual da Missa de Sempre</h1>
-        <p className={styles.subtitle}>Missa tradicional · Missal Romano de 1962</p>
+        <p className={styles.subtitle}>Missa tradicional · Rubricas de São Pio X (antes de 1955)</p>
       </header>
       <nav className={styles.sections} aria-label="Seções">
         {SECTIONS.map((section) => (
@@ -28,8 +28,9 @@ export function AppLayout() {
       </nav>
       <Outlet />
       <footer className={styles.footer}>
-        Textos segundo o Missal Romano de 1962. Se o livro da sua capela trouxer alguma diferença,
-        siga o livro e o costume local.
+        Textos segundo o Missal Romano com as rubricas de São Pio X (Divino Afflatu), anteriores às
+        reformas de 1955. Se o livro da sua capela trouxer alguma diferença, siga o livro e o
+        costume local.
       </footer>
     </>
   );

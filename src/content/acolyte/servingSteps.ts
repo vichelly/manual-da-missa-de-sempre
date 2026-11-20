@@ -42,7 +42,8 @@ export const SERVING_STEPS: ServingStep[] = [
     acolyte: 'gospel',
     missal: 'epistle',
     where: 'Ajoelhado, lado do Evangelho.',
-    actions: 'Responder ao Dominus vobiscum e, no fim da Coleta, Amen.',
+    actions:
+      'Responder ao Dominus vobiscum e Amen no fim da Coleta. Quando há várias orações, responde-se Amen no fim da primeira e no fim da última.',
     says: 'Et cum spiritu tuo · Amen',
   },
   {
@@ -137,8 +138,8 @@ export const SERVING_STEPS: ServingStep[] = [
     missal: 'gospel',
     where: 'Junto ao sacerdote, à direita dele.',
     actions:
-      'Onde for costume, rezar aqui o Confiteor (as rubricas de 1962 o retiraram, mas muitas capelas o mantêm). Pegar a patena de comunhão e acompanhar o sacerdote, segurando-a sob o queixo de cada comungante.',
-    says: 'Confiteor (se for costume) · Amen',
+      'Se há fiéis para comungar, depois que o sacerdote recebe o Preciosíssimo Sangue, rezar o Confiteor, inclinado, e responder Amen ao Misereatur e ao Indulgentiam. Depois, pegar a patena de comunhão e acompanhar o sacerdote, segurando-a sob o queixo de cada comungante.',
+    says: 'Confiteor · Amen · Amen',
   },
   {
     title: 'Abluções',
@@ -170,7 +171,7 @@ export const SERVING_STEPS: ServingStep[] = [
     missal: 'epistle',
     where: 'De pé, lado da Epístola (o sacerdote lê a sacra no lado do Evangelho).',
     actions:
-      'Levantar-se e passar ao lado da Epístola. Fazer genuflexão no Et Verbum caro factum est. No fim, responder Deo gratias.',
+      'Levantar-se e passar ao lado da Epístola. Fazer genuflexão no Et Verbum caro factum est. No fim, responder Deo gratias. Quando o Último Evangelho é próprio (comemoração de domingo, féria maior ou vigília), o missal deve antes ser levado ao lado do Evangelho; confirme com o mestre de cerimônias em que momento fazê-lo.',
     says: 'Et cum spiritu tuo · Gloria tibi, Domine · Deo gratias',
   },
   {
@@ -179,6 +180,6 @@ export const SERVING_STEPS: ServingStep[] = [
     missal: 'epistle',
     where: 'Ao pé do altar, no centro.',
     actions:
-      'Entregar o barrete, fazer genuflexão com o sacerdote e ir à frente para a sacristia. Se a capela reza as orações depois da Missa rezada (três Ave-Marias, Salve Rainha, São Miguel), ajoelhar-se ao pé do altar e responder. Apagar as velas começando pelo lado do Evangelho.',
+      'Ajoelhar-se ao pé do altar com o sacerdote e responder às orações depois da Missa rezada (três Ave-Marias, Salve Rainha, oração pela Igreja, São Miguel). Depois, entregar o barrete, fazer genuflexão com o sacerdote e ir à frente para a sacristia. Apagar as velas começando pelo lado do Evangelho.',
   },
 ];

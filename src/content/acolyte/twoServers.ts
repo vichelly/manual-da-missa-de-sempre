@@ -101,6 +101,7 @@ export const EPISTLE_SERVER_STEPS: RoleStep[] = [
     title: 'Comunhão dos fiéis',
     cue: 'Depois que o celebrante comunga.',
     actions: [
+      'Se há fiéis para comungar, rezar o Confiteor com o outro acólito, inclinados, e responder Amen ao Misereatur e ao Indulgentiam.',
       'Buscar a patena de comunhão.',
       'Levar o sino de volta à credência.',
       'Acompanhar a comunhão de todos.',

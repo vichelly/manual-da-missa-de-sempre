@@ -169,6 +169,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     promptTranslation: 'Por todos os séculos dos séculos.',
     answer: 'Amen.',
     answerTranslation: 'Amém.',
+    note: 'Quando há várias orações, responde-se Amen no fim da primeira e no fim da última.',
   },
   {
     phase: 'Epístola e Evangelho',
@@ -278,12 +279,21 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   {
     phase: 'Pater noster e Comunhão',
     prompt:
+      'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam aeternam. (comunhão dos fiéis)',
+    promptTranslation:
+      'Deus todo-poderoso tenha misericórdia de vós, perdoe os vossos pecados e vos conduza à vida eterna.',
+    answer: 'Amen.',
+    answerTranslation: 'Amém.',
+    note: 'Antes, se há fiéis para comungar, o acólito reza o Confiteor (o mesmo do pé do altar).',
+  },
+  {
+    phase: 'Pater noster e Comunhão',
+    prompt:
       'Indulgentiam, absolutionem, et remissionem peccatorum vestrorum tribuat vobis omnipotens et misericors Dominus. (comunhão dos fiéis)',
     promptTranslation:
       'O Senhor todo-poderoso e misericordioso vos conceda o perdão, a absolvição e a remissão dos vossos pecados.',
     answer: 'Amen.',
     answerTranslation: 'Amém.',
-    note: 'Só onde se mantém o costume do segundo Confiteor antes da comunhão dos fiéis.',
   },
   {
     phase: 'Conclusão',
@@ -298,6 +308,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     promptTranslation: 'Por todos os séculos dos séculos.',
     answer: 'Amen.',
     answerTranslation: 'Amém.',
+    note: 'Como na Coleta: Amen no fim da primeira e da última oração.',
   },
   {
     phase: 'Conclusão',
@@ -312,7 +323,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     promptTranslation: 'Ide, a Missa terminou.',
     answer: 'Deo gratias.',
     answerTranslation: 'Graças a Deus.',
-    note: 'Se o sacerdote disser Benedicamus Domino, a resposta também é Deo gratias. Na Missa de Réquiem: Requiescant in pace → Amen.',
+    note: 'Nas Missas sem Gloria o sacerdote diz Benedicamus Domino, e a resposta também é Deo gratias. Na Missa de Réquiem: Requiescant in pace → Amen.',
   },
   {
     phase: 'Conclusão',
@@ -335,6 +346,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     promptTranslation: 'Início do santo Evangelho segundo João.',
     answer: 'Gloria tibi, Domine.',
     answerTranslation: 'Glória a Vós, Senhor.',
+    note: 'Se o Último Evangelho for próprio, o sacerdote diz “Sequentia sancti Evangelii…”, e a resposta é a mesma.',
   },
   {
     phase: 'Conclusão',
@@ -343,5 +355,39 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     answer: 'Deo gratias.',
     answerTranslation: 'Graças a Deus.',
     note: 'Atenção: no Último Evangelho a resposta final é Deo gratias, e não Laus tibi, Christe. Genuflexão no Et Verbum caro factum est.',
+  },
+  {
+    phase: 'Orações depois da Missa',
+    prompt: 'Ave Maria, gratia plena, Dominus tecum… benedictus fructus ventris tui, Iesus.',
+    promptTranslation: 'Ave Maria, cheia de graça… bendito é o fruto do vosso ventre, Jesus.',
+    answer:
+      'Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.',
+    answerTranslation:
+      'Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém.',
+    note: 'Três vezes. Depois, todos rezam juntos a Salve Rainha. Podem ser rezadas em português.',
+  },
+  {
+    phase: 'Orações depois da Missa',
+    prompt: 'Ora pro nobis, sancta Dei Genetrix.',
+    promptTranslation: 'Rogai por nós, santa Mãe de Deus.',
+    answer: 'Ut digni efficiamur promissionibus Christi.',
+    answerTranslation: 'Para que sejamos dignos das promessas de Cristo.',
+  },
+  {
+    phase: 'Orações depois da Missa',
+    prompt: 'Oremus. Deus, refugium nostrum et virtus… Per eundem Christum Dominum nostrum.',
+    promptTranslation:
+      'Oremos. Ó Deus, nosso refúgio e nossa força… Pelo mesmo Cristo, nosso Senhor.',
+    answer: 'Amen.',
+    answerTranslation: 'Amém.',
+    note: 'Segue-se a oração a São Miguel Arcanjo, também respondida com Amen.',
+  },
+  {
+    phase: 'Orações depois da Missa',
+    prompt: 'Cor Iesu sacratissimum,',
+    promptTranslation: 'Sacratíssimo Coração de Jesus,',
+    answer: 'Miserere nobis.',
+    answerTranslation: 'Tende piedade de nós.',
+    note: 'Três vezes.',
   },
 ];
