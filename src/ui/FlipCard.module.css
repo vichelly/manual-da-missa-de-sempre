@@ -1,0 +1,19 @@
+.card {
+  width: 100%;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.hint {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  margin-top: var(--space-3);
+}

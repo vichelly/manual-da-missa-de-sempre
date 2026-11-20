@@ -1,0 +1,25 @@
+.line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  font-size: 0.95rem;
+  margin: var(--space-2) 0;
+}
+
+.item {
+  background: var(--color-gold-soft);
+  padding: 2px 9px;
+  border-radius: 6px;
+}
+
+.key {
+  background: var(--color-accent);
+  color: #fff;
+  padding: 2px 9px;
+  border-radius: 6px;
+}
+
+.arrow {
+  color: var(--color-muted);
+}

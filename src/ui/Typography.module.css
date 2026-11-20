@@ -1,0 +1,59 @@
+.intro {
+  color: var(--color-muted);
+  font-size: 0.98rem;
+  margin: 0 0 var(--space-3);
+}
+
+.latin {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 2px 0;
+}
+
+.latinSmall {
+  font-size: 1.05rem;
+  font-style: italic;
+  margin: 2px 0;
+}
+
+.translation {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  margin: 2px 0 6px;
+}
+
+.label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-accent);
+  margin: var(--space-3) 0 var(--space-1);
+}
+
+.rubric {
+  font-size: 1.05rem;
+  color: var(--color-accent);
+  margin: 2px 0;
+}
+
+.tip {
+  font-size: 0.93rem;
+  color: var(--color-gold);
+  margin: 3px 0;
+}
+
+.callout {
+  background: var(--color-accent-soft);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) 15px;
+  margin: 10px 0;
+}
+
+.steps {
+  margin: 6px 0 0;
+  padding-left: 1.3em;
+}
+
+.steps li {
+  margin: var(--space-1) 0;
+}

@@ -1,0 +1,39 @@
+.block {
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.block:last-child {
+  border-bottom: 0;
+}
+
+.number {
+  display: inline-block;
+  min-width: 1.55em;
+  height: 1.55em;
+  line-height: 1.55em;
+  text-align: center;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 0.8rem;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+.cue {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  margin-top: var(--space-1);
+}
+
+.cueSpeaker {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.response {
+  color: var(--color-accent);
+  font-style: normal;
+  font-weight: 600;
+}

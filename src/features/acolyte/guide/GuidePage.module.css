@@ -1,0 +1,27 @@
+.step {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.step:last-child {
+  border-bottom: 0;
+}
+
+.number {
+  display: inline-block;
+  min-width: 1.55em;
+  height: 1.55em;
+  line-height: 1.55em;
+  text-align: center;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 0.8rem;
+  margin-right: 7px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.05rem;
+  display: inline;
+}

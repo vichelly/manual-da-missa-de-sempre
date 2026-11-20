@@ -1,0 +1,17 @@
+.feedback {
+  margin-top: var(--space-3);
+  padding: var(--space-3) 14px;
+  border-radius: 10px;
+}
+
+.success {
+  background: var(--color-success-soft);
+}
+
+.error {
+  background: var(--color-error-soft);
+}
+
+.neutral {
+  background: var(--color-gold-soft);
+}

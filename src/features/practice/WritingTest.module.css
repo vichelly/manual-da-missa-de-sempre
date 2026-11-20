@@ -1,0 +1,14 @@
+.result {
+  font-style: italic;
+  line-height: 2;
+  margin: var(--space-2) 0;
+}
+
+.matched {
+  color: var(--color-success);
+}
+
+.missing {
+  color: var(--color-error);
+  text-decoration: underline wavy;
+}

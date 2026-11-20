@@ -1,0 +1,15 @@
+.where {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  margin: var(--space-1) 0 0;
+}
+
+.actions {
+  margin: var(--space-1) 0 0;
+}
+
+.says {
+  margin: var(--space-1) 0 0;
+  font-style: italic;
+  color: var(--color-accent);
+}

@@ -1,0 +1,20 @@
+.question {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--color-line);
+  cursor: pointer;
+}
+
+.question input {
+  margin-top: 6px;
+  flex: none;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--color-accent);
+}
+
+.prayer {
+  font-size: 1.05rem;
+}

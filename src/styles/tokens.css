@@ -1,0 +1,29 @@
+:root {
+  --color-bg: #f7f2e7;
+  --color-surface: #fffdf7;
+  --color-ink: #2a2118;
+  --color-muted: #76664f;
+  --color-accent: #9b1c1c;
+  --color-accent-soft: #f6e3de;
+  --color-gold: #9a7429;
+  --color-gold-soft: #efe4c8;
+  --color-success: #2e6b45;
+  --color-success-soft: #dcecdf;
+  --color-error: #a52a2a;
+  --color-error-soft: #f4d9d6;
+  --color-line: #e3d7bf;
+  --color-epistle: #3d5a80;
+  --color-gospel: #7a3e1d;
+  --color-neutral: #5c5c5c;
+
+  --font-body: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-pill: 999px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --content-width: 780px;
+}

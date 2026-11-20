@@ -1,0 +1,27 @@
+.input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 5px var(--space-2);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+}
+
+.right {
+  border-color: var(--color-success);
+  background: var(--color-success-soft);
+}
+
+.wrong {
+  border-color: var(--color-error);
+  background: var(--color-error-soft);
+}
+
+.answer {
+  flex: 1;
+}
+
+.solution {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}

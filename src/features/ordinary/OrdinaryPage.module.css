@@ -1,0 +1,9 @@
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: center;
+  font-size: 0.93rem;
+  color: var(--color-muted);
+  margin-bottom: var(--space-3);
+}
