@@ -128,8 +128,70 @@ export const EPISTLE_SERVER_STEPS: RoleStep[] = [
   },
 ];
 
-/** Duties of the acolyte on the Gospel side. To be filled in. */
-export const GOSPEL_SERVER_STEPS: RoleStep[] = [];
+/**
+ * Duties of the acolyte on the Gospel side when two acolytes serve,
+ * following the custom of the chapel, in the order they happen.
+ */
+export const GOSPEL_SERVER_STEPS: RoleStep[] = [
+  {
+    title: 'Ofertório: véu, água e manutérgio',
+    cue: 'No Ofertório, quando o sacerdote descobre o cálice (enquanto o acólito da Epístola cuida do vinho).',
+    actions: [
+      'Ir até o sacerdote e receber das mãos dele o véu do cálice.',
+      'Dobrar o véu conforme o costume e deixá-lo sobre o altar.',
+      'Ir à credência e pegar a colherinha com água.',
+      'Beijá-la e entregá-la ao sacerdote; ao recebê-la de volta, beijá-la novamente.',
+      'Trocá-la pelo manutérgio (toalhinha branca) e oferecê-lo ao sacerdote no Lavabo.',
+      'Voltar ao centro do altar, fazer genuflexão e ajoelhar-se no seu lugar.',
+    ],
+  },
+  {
+    title: 'Consagração',
+    cue: 'O sacerdote vai elevar a Hóstia e, depois, o Cálice.',
+    actions: [
+      'Aproximar-se do sacerdote e ajoelhar-se junto dele.',
+      'Na elevação da Hóstia, levantar levemente a ponta da casula.',
+      'Fazer o mesmo na elevação do Cálice.',
+    ],
+  },
+  {
+    title: 'Volta ao lugar depois da Consagração',
+    cue: 'Depois de elevar o Cálice, o sacerdote o pousa, cobre-o com a pala e faz genuflexão. Quando ele se levanta e abre os braços para o Unde et memores, a Consagração terminou.',
+    actions: [
+      'Voltar para trás, fazendo genuflexão no centro.',
+      'Pegar a patena de comunhão.',
+      'Permanecer de joelhos aguardando a Santa Comunhão.',
+    ],
+  },
+  {
+    title: 'Comunhão dos fiéis',
+    cue: 'Depois que o celebrante comunga.',
+    actions: [
+      'Se há fiéis para comungar, rezar o Confiteor com o outro acólito, inclinados, e responder Amen ao Misereatur e ao Indulgentiam.',
+      'Com a patena, acompanhar o sacerdote na comunhão dos fiéis, segurando-a sob o queixo de cada comungante.',
+      'Terminada a comunhão dos fiéis, fazer genuflexão.',
+    ],
+  },
+  {
+    title: 'Abluções',
+    cue: 'O sacerdote termina de consumir as Hóstias que sobraram.',
+    actions: [
+      'Ir à credência com o acólito da Epístola.',
+      'Pegar a água e derramá-la sobre os dedos do sacerdote (depois do vinho, que é do acólito da Epístola).',
+      'Sair da credência e fazer genuflexão no centro do altar.',
+    ],
+  },
+  {
+    title: 'Véu e bolsa do cálice',
+    actions: [
+      'Ir ao altar e pegar o véu.',
+      'Fazer genuflexão novamente e levar o véu para o outro lado, deixando-o sobre o altar.',
+      'Pegar a bolsa do corporal e aguardar o sacerdote guardar o corporal.',
+      'Pegar o véu e entregá-lo ao sacerdote.',
+      'Ir ao centro do altar, fazer genuflexão e aguardar.',
+    ],
+  },
+];
 
 export const SERVER_ROLE_STEPS: Record<ServerRole, RoleStep[]> = {
   epistle: EPISTLE_SERVER_STEPS,

@@ -1,4 +1,4 @@
-import { EPISTLE_SERVER_STEPS } from './acolyte/twoServers';
+import { EPISTLE_SERVER_STEPS, GOSPEL_SERVER_STEPS } from './acolyte/twoServers';
 import { CONFITEOR_TEXT } from './acolyte/confiteor';
 import { ACOLYTE_DIALOGUE } from './acolyte/dialogue';
 import { SERVING_STEPS } from './acolyte/servingSteps';
@@ -47,6 +47,12 @@ describe('two acolytes', () => {
     expect(EPISTLE_SERVER_STEPS.length).toBeGreaterThan(10);
     expect(EPISTLE_SERVER_STEPS[0]?.title).toBe('Confiteor do sacerdote');
     expect(EPISTLE_SERVER_STEPS.every((step) => step.actions.length > 0)).toBe(true);
+  });
+
+  it('lists the Gospel-side duties, from the Offertory to the veil and burse', () => {
+    expect(GOSPEL_SERVER_STEPS[0]?.title).toContain('Ofertório');
+    expect(GOSPEL_SERVER_STEPS.at(-1)?.title).toBe('Véu e bolsa do cálice');
+    expect(GOSPEL_SERVER_STEPS.every((step) => step.actions.length > 0)).toBe(true);
   });
 });
 
