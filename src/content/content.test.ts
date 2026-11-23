@@ -16,7 +16,9 @@ describe('liturgical content', () => {
   });
 
   it('answers the Last Gospel with Deo gratias', () => {
-    const lastGospel = ACOLYTE_DIALOGUE.find((item) => item.prompt.includes('plenum gratiae'));
+    const lastGospel = ACOLYTE_DIALOGUE.find((item) =>
+      normalize(item.prompt).includes('plenum gratiae'),
+    );
     expect(lastGospel?.answer).toBe('Deo gratias.');
   });
 
@@ -84,5 +86,28 @@ describe('rubrics of St. Pius X (Divino Afflatu, before 1955)', () => {
   it('says Benedicamus Domino on days without Gloria', () => {
     const ite = ACOLYTE_DIALOGUE.find((item) => item.prompt === 'Ite, missa est.');
     expect(ite?.note).toContain('Benedicamus Domino');
+  });
+});
+
+describe('chapel book', () => {
+  it('uses the book’s Latin spelling (J and æ)', () => {
+    const confiteor = ORDO_MISSAE[1]?.lines.find(
+      (line) => 'latin' in line && line.latin.startsWith('Confiteor'),
+    );
+    expect(confiteor && 'latin' in confiteor ? confiteor.latin : '').toContain(
+      'beato Joanni Baptistæ',
+    );
+    expect(ACOLYTE_DIALOGUE[0]?.answer).toBe('Ad Deum qui lætificat juventutem meam.');
+  });
+
+  it('prints the Trinity Preface', () => {
+    const preface = ORDO_MISSAE.find((section) => section.title === 'Prefácio e Sanctus');
+    const text = preface?.lines.map((line) => ('latin' in line ? line.latin : '')).join(' ') ?? '';
+    expect(normalize(text)).toContain('in unius trinitate substantiae');
+  });
+
+  it('keeps the qu digraph intact', () => {
+    const allText = JSON.stringify([ORDO_MISSAE, ACOLYTE_DIALOGUE]);
+    expect(allText).not.toMatch(/qu[jJ]/);
   });
 });

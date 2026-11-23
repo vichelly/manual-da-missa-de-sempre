@@ -8,13 +8,13 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     prompt: 'In nomine Patris, et Filii, et Spiritus Sancti. Amen. Introibo ad altare Dei.',
     promptTranslation:
       'Em nome do Pai, do Filho e do Espírito Santo. Amém. Subirei ao altar de Deus.',
-    answer: 'Ad Deum qui laetificat iuventutem meam.',
+    answer: 'Ad Deum qui lætificat juventutem meam.',
     answerTranslation: 'A Deus, que alegra a minha juventude.',
   },
   {
     phase: 'Ao pé do altar',
     prompt:
-      'Iudica me, Deus, et discerne causam meam de gente non sancta: ab homine iniquo et doloso erue me.',
+      'Judica me, Deus, et discerne causam meam de gente non sancta: ab homine iniquo et doloso erue me.',
     promptTranslation:
       'Julgai-me, ó Deus, e separai a minha causa da gente não santa: livrai-me do homem iníquo e enganador.',
     answer:
@@ -28,7 +28,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
       'Emitte lucem tuam et veritatem tuam: ipsa me deduxerunt, et adduxerunt in montem sanctum tuum, et in tabernacula tua.',
     promptTranslation:
       'Enviai a vossa luz e a vossa verdade: elas me guiaram e me conduziram ao vosso monte santo e aos vossos tabernáculos.',
-    answer: 'Et introibo ad altare Dei: ad Deum qui laetificat iuventutem meam.',
+    answer: 'Et introibo ad altare Dei: ad Deum qui lætificat juventutem meam.',
     answerTranslation: 'E subirei ao altar de Deus, a Deus que alegra a minha juventude.',
   },
   {
@@ -45,7 +45,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     phase: 'Ao pé do altar',
     prompt: 'Gloria Patri, et Filio, et Spiritui Sancto.',
     promptTranslation: 'Glória ao Pai, ao Filho e ao Espírito Santo.',
-    answer: 'Sicut erat in principio, et nunc, et semper: et in saecula saeculorum. Amen.',
+    answer: 'Sicut erat in principio, et nunc, et semper: et in sæcula sæculorum. Amen.',
     answerTranslation:
       'Assim como era no princípio, agora e sempre, e por todos os séculos dos séculos. Amém.',
     note: 'Inclinar a cabeça no Gloria Patri.',
@@ -54,14 +54,14 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     phase: 'Ao pé do altar',
     prompt: 'Introibo ad altare Dei. (2ª vez)',
     promptTranslation: 'Subirei ao altar de Deus.',
-    answer: 'Ad Deum qui laetificat iuventutem meam.',
+    answer: 'Ad Deum qui lætificat juventutem meam.',
     answerTranslation: 'A Deus, que alegra a minha juventude.',
   },
   {
     phase: 'Ao pé do altar',
-    prompt: 'Adiutorium nostrum in nomine Domini.',
+    prompt: 'Adjutorium nostrum in nomine Domini.',
     promptTranslation: 'O nosso auxílio está no nome do Senhor.',
-    answer: 'Qui fecit caelum et terram.',
+    answer: 'Qui fecit cælum et terram.',
     answerTranslation: 'Que fez o céu e a terra.',
     note: 'Fazer o sinal da cruz junto com o sacerdote.',
   },
@@ -71,7 +71,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
       '… et vos, fratres, orare pro me ad Dominum Deum nostrum. (fim do Confiteor do sacerdote)',
     promptTranslation: '… e a vós, irmãos, que rogueis por mim ao Senhor, nosso Deus.',
     answer:
-      'Misereatur tui omnipotens Deus, et dimissis peccatis tuis, perducat te ad vitam aeternam.',
+      'Misereatur tui omnipotens Deus, et dimissis peccatis tuis, perducat te ad vitam æternam.',
     answerTranslation:
       'Deus todo-poderoso tenha misericórdia de vós, perdoe os vossos pecados e vos conduza à vida eterna.',
     note: 'O sacerdote responde Amen, e em seguida você reza o Confiteor (veja a aba Confiteor).',
@@ -79,7 +79,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   {
     phase: 'Ao pé do altar',
     prompt:
-      'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam aeternam.',
+      'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam æternam.',
     promptTranslation:
       'Deus todo-poderoso tenha misericórdia de vós, perdoe os vossos pecados e vos conduza à vida eterna.',
     answer: 'Amen.',
@@ -100,7 +100,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     phase: 'Ao pé do altar',
     prompt: 'Deus, tu conversus vivificabis nos.',
     promptTranslation: 'Ó Deus, voltando-Vos para nós, nos dareis a vida.',
-    answer: 'Et plebs tua laetabitur in te.',
+    answer: 'Et plebs tua lætabitur in te.',
     answerTranslation: 'E o vosso povo se alegrará em Vós.',
   },
   {
@@ -165,7 +165,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   },
   {
     phase: 'Kyrie e Coleta',
-    prompt: '… Per omnia saecula saeculorum. (fim da Coleta)',
+    prompt: '… Per omnia sæcula sæculorum. (fim da Coleta)',
     promptTranslation: 'Por todos os séculos dos séculos.',
     answer: 'Amen.',
     answerTranslation: 'Amém.',
@@ -188,7 +188,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   },
   {
     phase: 'Epístola e Evangelho',
-    prompt: 'Sequentia sancti Evangelii secundum Matthaeum.',
+    prompt: 'Sequentia sancti Evangelii secundum Matthæum.',
     promptTranslation: 'Continuação do santo Evangelho segundo Mateus.',
     answer: 'Gloria tibi, Domine.',
     answerTranslation: 'Glória a Vós, Senhor.',
@@ -215,14 +215,14 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     promptTranslation:
       'Orai, irmãos, para que o meu e o vosso sacrifício seja aceito por Deus Pai todo-poderoso.',
     answer:
-      'Suscipiat Dominus sacrificium de manibus tuis, ad laudem et gloriam nominis sui, ad utilitatem quoque nostram, totiusque Ecclesiae suae sanctae.',
+      'Suscipiat Dominus sacrificium de manibus tuis, ad laudem et gloriam nominis sui, ad utilitatem quoque nostram, totiusque Ecclesiæ suæ sanctæ.',
     answerTranslation:
       'Receba o Senhor de tuas mãos este sacrifício, para louvor e glória do seu nome, para nosso proveito e de toda a sua santa Igreja.',
     note: 'O sacerdote responde Amen em voz baixa.',
   },
   {
     phase: 'Ofertório e Prefácio',
-    prompt: '… Per omnia saecula saeculorum. (fim da Secreta)',
+    prompt: '… Per omnia sæcula sæculorum. (fim da Secreta)',
     promptTranslation: 'Por todos os séculos dos séculos.',
     answer: 'Amen.',
     answerTranslation: 'Amém.',
@@ -245,12 +245,12 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
     phase: 'Ofertório e Prefácio',
     prompt: 'Gratias agamus Domino Deo nostro.',
     promptTranslation: 'Demos graças ao Senhor, nosso Deus.',
-    answer: 'Dignum et iustum est.',
+    answer: 'Dignum et justum est.',
     answerTranslation: 'É digno e justo.',
   },
   {
     phase: 'Pater noster e Comunhão',
-    prompt: '… Per omnia saecula saeculorum. (fim do Cânon, antes do Pater noster)',
+    prompt: '… Per omnia sæcula sæculorum. (fim do Cânon, antes do Pater noster)',
     promptTranslation: 'Por todos os séculos dos séculos.',
     answer: 'Amen.',
     answerTranslation: 'Amém.',
@@ -264,7 +264,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   },
   {
     phase: 'Pater noster e Comunhão',
-    prompt: '… Per omnia saecula saeculorum. (depois do Libera nos)',
+    prompt: '… Per omnia sæcula sæculorum. (depois do Libera nos)',
     promptTranslation: 'Por todos os séculos dos séculos.',
     answer: 'Amen.',
     answerTranslation: 'Amém.',
@@ -279,7 +279,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   {
     phase: 'Pater noster e Comunhão',
     prompt:
-      'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam aeternam. (comunhão dos fiéis)',
+      'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam æternam. (comunhão dos fiéis)',
     promptTranslation:
       'Deus todo-poderoso tenha misericórdia de vós, perdoe os vossos pecados e vos conduza à vida eterna.',
     answer: 'Amen.',
@@ -304,7 +304,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   },
   {
     phase: 'Conclusão',
-    prompt: '… Per omnia saecula saeculorum. (fim da Pós-comunhão)',
+    prompt: '… Per omnia sæcula sæculorum. (fim da Pós-comunhão)',
     promptTranslation: 'Por todos os séculos dos séculos.',
     answer: 'Amen.',
     answerTranslation: 'Amém.',
@@ -342,7 +342,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   },
   {
     phase: 'Conclusão',
-    prompt: 'Initium sancti Evangelii secundum Ioannem.',
+    prompt: 'Initium sancti Evangelii secundum Joannem.',
     promptTranslation: 'Início do santo Evangelho segundo João.',
     answer: 'Gloria tibi, Domine.',
     answerTranslation: 'Glória a Vós, Senhor.',
@@ -350,7 +350,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   },
   {
     phase: 'Conclusão',
-    prompt: '… plenum gratiae et veritatis. (fim do Último Evangelho)',
+    prompt: '… plenum gratiæ et veritatis. (fim do Último Evangelho)',
     promptTranslation: '… cheio de graça e de verdade.',
     answer: 'Deo gratias.',
     answerTranslation: 'Graças a Deus.',
@@ -358,10 +358,10 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   },
   {
     phase: 'Orações depois da Missa',
-    prompt: 'Ave Maria, gratia plena, Dominus tecum… benedictus fructus ventris tui, Iesus.',
+    prompt: 'Ave Maria, gratia plena, Dominus tecum… benedictus fructus ventris tui, Jesus.',
     promptTranslation: 'Ave Maria, cheia de graça… bendito é o fruto do vosso ventre, Jesus.',
     answer:
-      'Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.',
+      'Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostræ. Amen.',
     answerTranslation:
       'Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém.',
     note: 'Três vezes. Depois, todos rezam juntos a Salve Rainha. Podem ser rezadas em português.',
@@ -384,7 +384,7 @@ export const ACOLYTE_DIALOGUE: DialogueItem[] = [
   },
   {
     phase: 'Orações depois da Missa',
-    prompt: 'Cor Iesu sacratissimum,',
+    prompt: 'Cor Jesu sacratissimum,',
     promptTranslation: 'Sacratíssimo Coração de Jesus,',
     answer: 'Miserere nobis.',
     answerTranslation: 'Tende piedade de nós.',

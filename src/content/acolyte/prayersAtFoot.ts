@@ -5,12 +5,12 @@ import type { MemoryBlock } from '../types';
 export const PRAYERS_AT_FOOT: MemoryBlock[] = [
   {
     cue: 'Introibo ad altare Dei.',
-    latin: 'Ad Deum qui laetificat iuventutem meam.',
+    latin: 'Ad Deum qui lætificat juventutem meam.',
     translation: 'A Deus, que alegra a minha juventude.',
     tip: 'Antes, faça o sinal da cruz com o sacerdote (In nomine Patris…).',
   },
   {
-    cue: 'Iudica me, Deus, et discerne causam meam de gente non sancta: ab homine iniquo et doloso erue me.',
+    cue: 'Judica me, Deus, et discerne causam meam de gente non sancta: ab homine iniquo et doloso erue me.',
     latin:
       'Quia tu es, Deus, fortitudo mea: quare me repulisti, et quare tristis incedo, dum affligit me inimicus?',
     translation:
@@ -19,7 +19,7 @@ export const PRAYERS_AT_FOOT: MemoryBlock[] = [
   },
   {
     cue: 'Emitte lucem tuam et veritatem tuam: ipsa me deduxerunt, et adduxerunt in montem sanctum tuum, et in tabernacula tua.',
-    latin: 'Et introibo ad altare Dei: ad Deum qui laetificat iuventutem meam.',
+    latin: 'Et introibo ad altare Dei: ad Deum qui lætificat juventutem meam.',
     translation: 'E subirei ao altar de Deus, a Deus que alegra a minha juventude.',
     tip: 'É a primeira resposta com “Et introibo ad altare Dei” na frente.',
   },
@@ -32,33 +32,33 @@ export const PRAYERS_AT_FOOT: MemoryBlock[] = [
   },
   {
     cue: 'Gloria Patri, et Filio, et Spiritui Sancto.',
-    latin: 'Sicut erat in principio, et nunc, et semper: et in saecula saeculorum. Amen.',
+    latin: 'Sicut erat in principio, et nunc, et semper: et in sæcula sæculorum. Amen.',
     translation:
       'Assim como era no princípio, agora e sempre, e por todos os séculos dos séculos. Amém.',
     tip: 'Inclinar a cabeça no Gloria Patri.',
   },
   {
     cue: 'Introibo ad altare Dei.',
-    latin: 'Ad Deum qui laetificat iuventutem meam.',
+    latin: 'Ad Deum qui lætificat juventutem meam.',
     translation: 'A Deus, que alegra a minha juventude.',
     tip: 'O salmo termina como começou.',
   },
   {
-    cue: 'Adiutorium nostrum ✠ in nomine Domini.',
-    latin: 'Qui fecit caelum et terram.',
+    cue: 'Adjutorium nostrum ✠ in nomine Domini.',
+    latin: 'Qui fecit cælum et terram.',
     translation: 'Que fez o céu e a terra.',
     tip: 'Sinal da cruz junto com o sacerdote.',
   },
   {
     cue: '(fim do Confiteor do sacerdote) … orare pro me ad Dominum Deum nostrum.',
     latin:
-      'Misereatur tui omnipotens Deus, et dimissis peccatis tuis, perducat te ad vitam aeternam.',
+      'Misereatur tui omnipotens Deus, et dimissis peccatis tuis, perducat te ad vitam æternam.',
     translation:
       'Deus todo-poderoso tenha misericórdia de vós, perdoe os vossos pecados e vos conduza à vida eterna.',
     tip: 'Inclinado, voltado um pouco para o sacerdote. Ele responde Amen, e você reza o Confiteor.',
   },
   {
-    cue: 'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam aeternam.',
+    cue: 'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam æternam.',
     latin: 'Amen.',
     translation: 'Amém.',
   },
@@ -70,7 +70,7 @@ export const PRAYERS_AT_FOOT: MemoryBlock[] = [
   },
   {
     cue: 'Deus, tu conversus vivificabis nos.',
-    latin: 'Et plebs tua laetabitur in te.',
+    latin: 'Et plebs tua lætabitur in te.',
     translation: 'E o vosso povo se alegrará em Vós.',
     tip: 'Os versículos finais são ditos com leve inclinação.',
   },

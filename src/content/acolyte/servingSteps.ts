@@ -26,7 +26,7 @@ export const SERVING_STEPS: ServingStep[] = [
     where: 'Ajoelhado no chão, lado do Evangelho.',
     actions:
       'Fazer o sinal da cruz com o sacerdote e responder o Salmo 42. No Confiteor, inclinar-se profundamente e bater no peito três vezes no mea culpa. Inclinar-se levemente nos versículos finais.',
-    says: 'Ad Deum qui laetificat… · Misereatur tui… · Confiteor · Amen',
+    says: 'Ad Deum qui lætificat… · Misereatur tui… · Confiteor · Amen',
   },
   {
     title: 'Intróito e Kyrie',
@@ -87,7 +87,7 @@ export const SERVING_STEPS: ServingStep[] = [
     missal: 'gospel',
     where: 'Ajoelhado, lado da Epístola.',
     actions: 'Responder o Suscipiat inteiro e as respostas do Prefácio.',
-    says: 'Suscipiat Dominus… · Amen · Et cum spiritu tuo · Habemus ad Dominum · Dignum et iustum est',
+    says: 'Suscipiat Dominus… · Amen · Et cum spiritu tuo · Habemus ad Dominum · Dignum et justum est',
   },
   {
     title: 'Sanctus',

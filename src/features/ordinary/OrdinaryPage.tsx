@@ -32,8 +32,8 @@ export function OrdinaryPage() {
           <SpeakerTag speaker="server" /> Ministro (acólito)
         </div>
         <Intro>
-          As posições indicadas são as mais comuns na Missa rezada. Na Missa cantada fica-se mais
-          tempo de pé e senta-se quando o sacerdote se senta. Siga sempre o costume da sua capela.
+          As posições seguem os sinais do livro da capela. Em muitas capelas, na Missa rezada, os
+          fiéis ficam de joelhos por mais tempo; siga sempre o costume da sua capela.
         </Intro>
         <Toolbar>
           <SelectField

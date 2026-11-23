@@ -17,6 +17,8 @@ export const ORDO_MISSAE: OrdoSection[] = [
   {
     title: 'Orações ao pé do altar',
     posture: 'kneeling',
+    postureNote:
+      'Na Missa rezada, de joelhos; na Missa cantada, de pé (segundo o livro da capela).',
     lines: [
       {
         kind: 'priest',
@@ -30,7 +32,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'server',
-        latin: 'Ad Deum qui laetificat iuventutem meam.',
+        latin: 'Ad Deum qui lætificat juventutem meam.',
         translation: 'A Deus, que alegra a minha juventude.',
       },
       {
@@ -40,7 +42,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Iudica me, Deus, et discerne causam meam de gente non sancta: ab homine iniquo et doloso erue me.',
+          'Judica me, Deus, et discerne causam meam de gente non sancta: ab homine iniquo et doloso erue me.',
         translation:
           'Julgai-me, ó Deus, e separai a minha causa da gente não santa: livrai-me do homem iníquo e enganador.',
       },
@@ -60,7 +62,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'server',
-        latin: 'Et introibo ad altare Dei: ad Deum qui laetificat iuventutem meam.',
+        latin: 'Et introibo ad altare Dei: ad Deum qui lætificat juventutem meam.',
         translation: 'E subirei ao altar de Deus, a Deus que alegra a minha juventude.',
       },
       {
@@ -83,7 +85,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'server',
-        latin: 'Sicut erat in principio, et nunc, et semper: et in saecula saeculorum. Amen.',
+        latin: 'Sicut erat in principio, et nunc, et semper: et in sæcula sæculorum. Amen.',
         translation:
           'Assim como era no princípio, agora e sempre, e por todos os séculos dos séculos. Amém.',
       },
@@ -94,17 +96,17 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'server',
-        latin: 'Ad Deum qui laetificat iuventutem meam.',
+        latin: 'Ad Deum qui lætificat juventutem meam.',
         translation: 'A Deus, que alegra a minha juventude.',
       },
       {
         kind: 'priest',
-        latin: 'Adiutorium nostrum ✠ in nomine Domini.',
+        latin: 'Adjutorium nostrum ✠ in nomine Domini.',
         translation: 'O nosso auxílio ✠ está no nome do Senhor.',
       },
       {
         kind: 'server',
-        latin: 'Qui fecit caelum et terram.',
+        latin: 'Qui fecit cælum et terram.',
         translation: 'Que fez o céu e a terra.',
       },
       {
@@ -114,14 +116,14 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Confiteor Deo omnipotenti, beatae Mariae semper Virgini, beato Michaeli Archangelo, beato Ioanni Baptistae, sanctis Apostolis Petro et Paulo, omnibus Sanctis, et vobis, fratres: quia peccavi nimis cogitatione, verbo et opere: mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper Virginem, beatum Michaelem Archangelum, beatum Ioannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et vos, fratres, orare pro me ad Dominum Deum nostrum.',
+          'Confiteor Deo omnipotenti, beatæ Mariæ semper Virgini, beato Michæli Archangelo, beato Joanni Baptistæ, sanctis Apostolis Petro et Paulo, omnibus Sanctis, et vobis, fratres: quia peccavi nimis cogitatione, verbo et opere: mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper Virginem, beatum Michælem Archangelum, beatum Joannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et vos, fratres, orare pro me ad Dominum Deum nostrum.',
         translation:
           'Eu confesso a Deus todo-poderoso, à bem-aventurada sempre Virgem Maria, ao bem-aventurado São Miguel Arcanjo, ao bem-aventurado São João Batista, aos santos Apóstolos Pedro e Paulo, a todos os Santos e a vós, irmãos, que pequei muitas vezes por pensamentos, palavras e obras: por minha culpa, minha culpa, minha máxima culpa. Por isso, peço à bem-aventurada sempre Virgem Maria, ao bem-aventurado São Miguel Arcanjo, ao bem-aventurado São João Batista, aos santos Apóstolos Pedro e Paulo, a todos os Santos e a vós, irmãos, que rogueis por mim ao Senhor, nosso Deus.',
       },
       {
         kind: 'server',
         latin:
-          'Misereatur tui omnipotens Deus, et dimissis peccatis tuis, perducat te ad vitam aeternam.',
+          'Misereatur tui omnipotens Deus, et dimissis peccatis tuis, perducat te ad vitam æternam.',
         translation:
           'Deus todo-poderoso tenha misericórdia de vós, perdoe os vossos pecados e vos conduza à vida eterna.',
       },
@@ -133,13 +135,13 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'server',
         latin:
-          'Confiteor Deo omnipotenti, beatae Mariae semper Virgini, beato Michaeli Archangelo, beato Ioanni Baptistae, sanctis Apostolis Petro et Paulo, omnibus Sanctis, et tibi, pater: quia peccavi nimis cogitatione, verbo et opere: mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper Virginem, beatum Michaelem Archangelum, beatum Ioannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et te, pater, orare pro me ad Dominum Deum nostrum.',
+          'Confiteor Deo omnipotenti, beatæ Mariæ semper Virgini, beato Michæli Archangelo, beato Joanni Baptistæ, sanctis Apostolis Petro et Paulo, omnibus Sanctis, et tibi, pater: quia peccavi nimis cogitatione, verbo et opere: mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper Virginem, beatum Michælem Archangelum, beatum Joannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et te, pater, orare pro me ad Dominum Deum nostrum.',
         translation: '(O mesmo Confiteor, dizendo “a vós, padre” em lugar de “a vós, irmãos”.)',
       },
       {
         kind: 'priest',
         latin:
-          'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam aeternam.',
+          'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam æternam.',
         translation:
           'Deus todo-poderoso tenha misericórdia de vós, perdoe os vossos pecados e vos conduza à vida eterna.',
       },
@@ -167,7 +169,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'server',
-        latin: 'Et plebs tua laetabitur in te.',
+        latin: 'Et plebs tua lætabitur in te.',
         translation: 'E o vosso povo se alegrará em Vós.',
       },
       {
@@ -212,7 +214,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Aufer a nobis, quaesumus, Domine, iniquitates nostras: ut ad Sancta sanctorum puris mereamur mentibus introire. Per Christum Dominum nostrum. Amen.',
+          'Aufer a nobis, quæsumus, Domine, iniquitates nostras: ut ad Sancta sanctorum puris mereamur mentibus introire. Per Christum Dominum nostrum. Amen.',
         translation:
           'Afastai de nós, Senhor, nós Vos pedimos, as nossas iniquidades, para que mereçamos entrar com almas puras no Santo dos Santos. Por Cristo, nosso Senhor. Amém.',
       },
@@ -223,7 +225,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Oramus te, Domine, per merita Sanctorum tuorum, quorum reliquiae hic sunt, et omnium Sanctorum: ut indulgere digneris omnia peccata mea. Amen.',
+          'Oramus te, Domine, per merita Sanctorum tuorum, quorum reliquiæ hic sunt, et omnium Sanctorum: ut indulgere digneris omnia peccata mea. Amen.',
         translation:
           'Nós Vos rogamos, Senhor, pelos méritos dos vossos Santos, cujas relíquias aqui estão, e de todos os Santos, que Vos digneis perdoar todos os meus pecados. Amém.',
       },
@@ -231,7 +233,8 @@ export const ORDO_MISSAE: OrdoSection[] = [
   },
   {
     title: 'Intróito e Kyrie',
-    posture: 'kneeling',
+    posture: 'standing',
+    postureNote: 'De pé quando o sacerdote sobe ao altar.',
     lines: [
       {
         kind: 'proper',
@@ -252,14 +255,14 @@ export const ORDO_MISSAE: OrdoSection[] = [
   },
   {
     title: 'Gloria',
-    posture: 'kneeling',
+    posture: 'standing',
     postureNote:
-      'Dito nos domingos (fora do Advento e do tempo da Septuagésima à Páscoa) e nas festas; omitido nas férias, nas vigílias, na maior parte das Missas votivas e nas Missas de Réquiem. Na Missa cantada, de pé durante a entoação.',
+      'Dito nos domingos (fora do Advento e do tempo da Septuagésima à Páscoa) e nas festas; omitido nas férias, nas vigílias, na maior parte das Missas votivas e nas Missas de Réquiem.',
     lines: [
       {
         kind: 'priest',
         latin:
-          'Gloria in excelsis Deo. Et in terra pax hominibus bonae voluntatis. Laudamus te. Benedicimus te. Adoramus te. Glorificamus te. Gratias agimus tibi propter magnam gloriam tuam. Domine Deus, Rex caelestis, Deus Pater omnipotens. Domine Fili unigenite, Iesu Christe. Domine Deus, Agnus Dei, Filius Patris. Qui tollis peccata mundi, miserere nobis. Qui tollis peccata mundi, suscipe deprecationem nostram. Qui sedes ad dexteram Patris, miserere nobis. Quoniam tu solus Sanctus. Tu solus Dominus. Tu solus Altissimus, Iesu Christe. Cum Sancto Spiritu ✠ in gloria Dei Patris. Amen.',
+          'Gloria in excelsis Deo. Et in terra pax hominibus bonæ voluntatis. Laudamus te. Benedicimus te. Adoramus te. Glorificamus te. Gratias agimus tibi propter magnam gloriam tuam. Domine Deus, Rex cælestis, Deus Pater omnipotens. Domine Fili unigenite, Jesu Christe. Domine Deus, Agnus Dei, Filius Patris. Qui tollis peccata mundi, miserere nobis. Qui tollis peccata mundi, suscipe deprecationem nostram. Qui sedes ad dexteram Patris, miserere nobis. Quoniam tu solus Sanctus. Tu solus Dominus. Tu solus Altissimus, Jesu Christe. Cum Sancto Spiritu ✠ in gloria Dei Patris. Amen.',
         translation:
           'Glória a Deus nas alturas, e paz na terra aos homens de boa vontade. Nós Vos louvamos. Nós Vos bendizemos. Nós Vos adoramos. Nós Vos glorificamos. Graças Vos damos por vossa imensa glória. Senhor Deus, Rei dos céus, Deus Pai todo-poderoso. Senhor Filho unigênito, Jesus Cristo. Senhor Deus, Cordeiro de Deus, Filho do Pai. Vós que tirais os pecados do mundo, tende piedade de nós. Vós que tirais os pecados do mundo, acolhei a nossa súplica. Vós que estais sentado à direita do Pai, tende piedade de nós. Porque só Vós sois o Santo. Só Vós o Senhor. Só Vós o Altíssimo, Jesus Cristo. Com o Espírito Santo ✠ na glória de Deus Pai. Amém.',
       },
@@ -267,8 +270,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
   },
   {
     title: 'Coleta',
-    posture: 'kneeling',
-    postureNote: 'Na Missa cantada, de pé.',
+    posture: 'standing',
     lines: [
       {
         kind: 'priest',
@@ -292,7 +294,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          '… Per Dominum nostrum Iesum Christum, Filium tuum: qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia saecula saeculorum.',
+          '… Per Dominum nostrum Jesum Christum, Filium tuum: qui tecum vivit et regnat in unitate Spiritus Sancti Deus, per omnia sæcula sæculorum.',
         translation:
           '… Por nosso Senhor Jesus Cristo, vosso Filho, que convosco vive e reina na unidade do Espírito Santo, Deus, por todos os séculos dos séculos.',
       },
@@ -334,14 +336,14 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Munda cor meum ac labia mea, omnipotens Deus, qui labia Isaiae Prophetae calculo mundasti ignito: ita me tua grata miseratione dignare mundare, ut sanctum Evangelium tuum digne valeam nuntiare. Per Christum Dominum nostrum. Amen.',
+          'Munda cor meum ac labia mea, omnipotens Deus, qui labia Isaiæ Prophetæ calculo mundasti ignito: ita me tua grata miseratione dignare mundare, ut sanctum Evangelium tuum digne valeam nuntiare. Per Christum Dominum nostrum. Amen.',
         translation:
           'Purificai o meu coração e os meus lábios, Deus todo-poderoso, que purificastes os lábios do profeta Isaías com uma brasa ardente; dignai-Vos, por vossa benigna misericórdia, purificar-me de tal modo que eu possa anunciar dignamente o vosso santo Evangelho. Por Cristo, nosso Senhor. Amém.',
       },
       {
         kind: 'priest',
         latin:
-          'Iube, Domine, benedicere. Dominus sit in corde meo, et in labiis meis: ut digne et competenter annuntiem Evangelium suum. Amen.',
+          'Jube, Domine, benedicere. Dominus sit in corde meo, et in labiis meis: ut digne et competenter annuntiem Evangelium suum. Amen.',
         translation:
           'Dignai-Vos, Senhor, abençoar-me. O Senhor esteja no meu coração e nos meus lábios, para que eu anuncie digna e convenientemente o seu Evangelho. Amém.',
       },
@@ -404,7 +406,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Credo in unum Deum, Patrem omnipotentem, factorem caeli et terrae, visibilium omnium et invisibilium. Et in unum Dominum Iesum Christum, Filium Dei unigenitum. Et ex Patre natum ante omnia saecula. Deum de Deo, lumen de lumine, Deum verum de Deo vero. Genitum, non factum, consubstantialem Patri: per quem omnia facta sunt. Qui propter nos homines, et propter nostram salutem descendit de caelis.',
+          'Credo in unum Deum, Patrem omnipotentem, factorem cæli et terræ, visibilium omnium et invisibilium. Et in unum Dominum Jesum Christum, Filium Dei unigenitum. Et ex Patre natum ante omnia sæcula. Deum de Deo, lumen de lumine, Deum verum de Deo vero. Genitum, non factum, consubstantialem Patri: per quem omnia facta sunt. Qui propter nos homines, et propter nostram salutem descendit de cælis.',
         translation:
           'Creio em um só Deus, Pai todo-poderoso, criador do céu e da terra, de todas as coisas visíveis e invisíveis. E em um só Senhor, Jesus Cristo, Filho unigênito de Deus, nascido do Pai antes de todos os séculos. Deus de Deus, luz da luz, Deus verdadeiro de Deus verdadeiro; gerado, não criado, consubstancial ao Pai: por Ele todas as coisas foram feitas. Que, por nós homens e para a nossa salvação, desceu dos céus.',
       },
@@ -424,7 +426,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Crucifixus etiam pro nobis: sub Pontio Pilato passus, et sepultus est. Et resurrexit tertia die, secundum Scripturas. Et ascendit in caelum: sedet ad dexteram Patris. Et iterum venturus est cum gloria, iudicare vivos et mortuos: cuius regni non erit finis. Et in Spiritum Sanctum, Dominum et vivificantem: qui ex Patre Filioque procedit. Qui cum Patre et Filio simul adoratur, et conglorificatur: qui locutus est per Prophetas. Et unam, sanctam, catholicam et apostolicam Ecclesiam. Confiteor unum baptisma in remissionem peccatorum. Et exspecto resurrectionem mortuorum. ✠ Et vitam venturi saeculi. Amen.',
+          'Crucifixus etiam pro nobis: sub Pontio Pilato passus, et sepultus est. Et resurrexit tertia die, secundum Scripturas. Et ascendit in cælum: sedet ad dexteram Patris. Et iterum venturus est cum gloria, judicare vivos et mortuos: cujus regni non erit finis. Et in Spiritum Sanctum, Dominum et vivificantem: qui ex Patre Filioque procedit. Qui cum Patre et Filio simul adoratur, et conglorificatur: qui locutus est per Prophetas. Et unam, sanctam, catholicam et apostolicam Ecclesiam. Confiteor unum baptisma in remissionem peccatorum. Et exspecto resurrectionem mortuorum. ✠ Et vitam venturi sæculi. Amen.',
         translation:
           'Foi também crucificado por nós sob Pôncio Pilatos; padeceu e foi sepultado. Ressuscitou ao terceiro dia, conforme as Escrituras, e subiu aos céus, onde está sentado à direita do Pai. E de novo há de vir em sua glória, para julgar os vivos e os mortos; e o seu reino não terá fim. Creio no Espírito Santo, Senhor que dá a vida, e procede do Pai e do Filho; e com o Pai e o Filho é adorado e glorificado: Ele que falou pelos profetas. Creio na Igreja una, santa, católica e apostólica. Professo um só batismo para remissão dos pecados. E espero a ressurreição dos mortos ✠ e a vida do mundo que há de vir. Amém.',
       },
@@ -460,7 +462,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Suscipe, sancte Pater, omnipotens aeterne Deus, hanc immaculatam hostiam, quam ego indignus famulus tuus offero tibi Deo meo vivo et vero, pro innumerabilibus peccatis, et offensionibus, et negligentiis meis, et pro omnibus circumstantibus, sed et pro omnibus fidelibus christianis vivis atque defunctis: ut mihi, et illis proficiat ad salutem in vitam aeternam. Amen.',
+          'Suscipe, sancte Pater, omnipotens æterne Deus, hanc immaculatam hostiam, quam ego indignus famulus tuus offero tibi Deo meo vivo et vero, pro innumerabilibus peccatis, et offensionibus, et negligentiis meis, et pro omnibus circumstantibus, sed et pro omnibus fidelibus christianis vivis atque defunctis: ut mihi, et illis proficiat ad salutem in vitam æternam. Amen.',
         translation:
           'Recebei, Pai santo, Deus eterno e todo-poderoso, esta hóstia imaculada, que eu, vosso indigno servo, Vos ofereço a Vós, meu Deus vivo e verdadeiro, pelos meus inumeráveis pecados, ofensas e negligências, por todos os aqui presentes e também por todos os fiéis cristãos, vivos e defuntos, para que a mim e a eles aproveite para a salvação na vida eterna. Amém.',
       },
@@ -471,7 +473,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Deus, ✠ qui humanae substantiae dignitatem mirabiliter condidisti, et mirabilius reformasti: da nobis per huius aquae et vini mysterium, eius divinitatis esse consortes, qui humanitatis nostrae fieri dignatus est particeps, Iesus Christus, Filius tuus, Dominus noster: Qui tecum vivit et regnat in unitate Spiritus Sancti Deus: per omnia saecula saeculorum. Amen.',
+          'Deus, ✠ qui humanæ substantiæ dignitatem mirabiliter condidisti, et mirabilius reformasti: da nobis per hujus aquæ et vini mysterium, ejus divinitatis esse consortes, qui humanitatis nostræ fieri dignatus est particeps, Jesus Christus, Filius tuus, Dominus noster: Qui tecum vivit et regnat in unitate Spiritus Sancti Deus: per omnia sæcula sæculorum. Amen.',
         translation:
           'Ó Deus, ✠ que admiravelmente criastes a dignidade da natureza humana e mais admiravelmente ainda a restaurastes, concedei-nos, pelo mistério desta água e deste vinho, participar da divindade d’Aquele que se dignou participar da nossa humanidade, Jesus Cristo, vosso Filho, nosso Senhor, que convosco vive e reina na unidade do Espírito Santo, Deus, por todos os séculos dos séculos. Amém.',
       },
@@ -482,7 +484,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Offerimus tibi, Domine, calicem salutaris, tuam deprecantes clementiam: ut in conspectu divinae maiestatis tuae, pro nostra et totius mundi salute, cum odore suavitatis ascendat. Amen.',
+          'Offerimus tibi, Domine, calicem salutaris, tuam deprecantes clementiam: ut in conspectu divinæ majestatis tuæ, pro nostra et totius mundi salute, cum odore suavitatis ascendat. Amen.',
         translation:
           'Nós Vos oferecemos, Senhor, o cálice da salvação, suplicando à vossa clemência que ele suba como suave perfume à presença da vossa divina majestade, pela nossa salvação e pela de todo o mundo. Amém.',
       },
@@ -500,7 +502,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Veni, Sanctificator omnipotens aeterne Deus: et bene ✠ dic hoc sacrificium, tuo sancto nomini praeparatum.',
+          'Veni, Sanctificator omnipotens æterne Deus: et bene ✠ dic hoc sacrificium, tuo sancto nomini præparatum.',
         translation:
           'Vinde, Santificador, Deus eterno e todo-poderoso, e aben ✠ çoai este sacrifício preparado para o vosso santo nome.',
       },
@@ -517,7 +519,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Lavabo inter innocentes manus meas: et circumdabo altare tuum, Domine: Ut audiam vocem laudis, et enarrem universa mirabilia tua. Domine, dilexi decorem domus tuae, et locum habitationis gloriae tuae. Ne perdas cum impiis, Deus, animam meam, et cum viris sanguinum vitam meam: In quorum manibus iniquitates sunt: dextera eorum repleta est muneribus. Ego autem in innocentia mea ingressus sum: redime me, et miserere mei. Pes meus stetit in directo: in ecclesiis benedicam te, Domine. Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper: et in saecula saeculorum. Amen.',
+          'Lavabo inter innocentes manus meas: et circumdabo altare tuum, Domine: Ut audiam vocem laudis, et enarrem universa mirabilia tua. Domine, dilexi decorem domus tuæ, et locum habitationis gloriæ tuæ. Ne perdas cum impiis, Deus, animam meam, et cum viris sanguinum vitam meam: In quorum manibus iniquitates sunt: dextera eorum repleta est muneribus. Ego autem in innocentia mea ingressus sum: redime me, et miserere mei. Pes meus stetit in directo: in ecclesiis benedicam te, Domine. Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper: et in sæcula sæculorum. Amen.',
         translation:
           'Lavarei as minhas mãos entre os inocentes e andarei em torno do vosso altar, Senhor, para ouvir a voz do louvor e contar todas as vossas maravilhas. Senhor, amei a beleza da vossa casa e o lugar onde habita a vossa glória. Não percais, ó Deus, a minha alma com os ímpios, nem a minha vida com os homens sanguinários, em cujas mãos está a iniquidade e cuja direita está cheia de subornos. Eu, porém, andei na minha inocência: resgatai-me e tende piedade de mim. O meu pé está firme no caminho reto: nas assembleias Vos bendirei, Senhor. Glória ao Pai, e ao Filho, e ao Espírito Santo. Assim como era no princípio, agora e sempre, e por todos os séculos dos séculos. Amém.',
       },
@@ -528,7 +530,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Suscipe, sancta Trinitas, hanc oblationem, quam tibi offerimus ob memoriam passionis, resurrectionis, et ascensionis Iesu Christi, Domini nostri: et in honorem beatae Mariae semper Virginis, et beati Ioannis Baptistae, et sanctorum Apostolorum Petri et Pauli, et istorum, et omnium Sanctorum: ut illis proficiat ad honorem, nobis autem ad salutem: et illi pro nobis intercedere dignentur in caelis, quorum memoriam agimus in terris. Per eundem Christum Dominum nostrum. Amen.',
+          'Suscipe, sancta Trinitas, hanc oblationem, quam tibi offerimus ob memoriam passionis, resurrectionis, et ascensionis Jesu Christi, Domini nostri: et in honorem beatæ Mariæ semper Virginis, et beati Joannis Baptistæ, et sanctorum Apostolorum Petri et Pauli, et istorum, et omnium Sanctorum: ut illis proficiat ad honorem, nobis autem ad salutem: et illi pro nobis intercedere dignentur in cælis, quorum memoriam agimus in terris. Per eundem Christum Dominum nostrum. Amen.',
         translation:
           'Recebei, ó Trindade Santa, esta oblação que Vos oferecemos em memória da paixão, ressurreição e ascensão de Jesus Cristo, nosso Senhor, e em honra da bem-aventurada sempre Virgem Maria, de São João Batista, dos santos Apóstolos Pedro e Paulo, destes [cujas relíquias estão no altar] e de todos os Santos, para que a eles sirva de honra e a nós de salvação; e se dignem interceder por nós no céu aqueles cuja memória celebramos na terra. Pelo mesmo Cristo, nosso Senhor. Amém.',
       },
@@ -553,7 +555,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'server',
         latin:
-          'Suscipiat Dominus sacrificium de manibus tuis, ad laudem et gloriam nominis sui, ad utilitatem quoque nostram, totiusque Ecclesiae suae sanctae.',
+          'Suscipiat Dominus sacrificium de manibus tuis, ad laudem et gloriam nominis sui, ad utilitatem quoque nostram, totiusque Ecclesiæ suæ sanctæ.',
         translation:
           'Receba o Senhor de tuas mãos este sacrifício, para louvor e glória do seu nome, para nosso proveito e de toda a sua santa Igreja.',
       },
@@ -568,7 +570,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'priest',
-        latin: '… Per omnia saecula saeculorum.',
+        latin: '… Per omnia sæcula sæculorum.',
         translation: '… Por todos os séculos dos séculos.',
       },
       {
@@ -580,9 +582,8 @@ export const ORDO_MISSAE: OrdoSection[] = [
   },
   {
     title: 'Prefácio e Sanctus',
-    posture: 'kneeling',
-    postureNote:
-      'De joelhos (em algumas capelas, só a partir do Sanctus). Na Missa cantada, de pé durante o Prefácio.',
+    posture: 'standing',
+    postureNote: 'De pé no Prefácio; ajoelhar-se no Sanctus.',
     lines: [
       {
         kind: 'priest',
@@ -611,19 +612,19 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'server',
-        latin: 'Dignum et iustum est.',
+        latin: 'Dignum et justum est.',
         translation: 'É digno e justo.',
       },
       {
         kind: 'rubric',
-        text: 'Prefácio comum. O prefácio muda conforme o tempo e a festa (aos domingos comuns, o da Santíssima Trindade).',
+        text: 'Prefácio da Santíssima Trindade, dito nos domingos comuns. Nas festas e em certos tempos o prefácio é outro (veja o missal).',
       },
       {
         kind: 'priest',
         latin:
-          'Vere dignum et iustum est, aequum et salutare, nos tibi semper et ubique gratias agere: Domine sancte, Pater omnipotens, aeterne Deus: per Christum Dominum nostrum. Per quem maiestatem tuam laudant Angeli, adorant Dominationes, tremunt Potestates. Caeli caelorumque Virtutes, ac beata Seraphim, socia exsultatione concelebrant. Cum quibus et nostras voces, ut admitti iubeas, deprecamur, supplici confessione dicentes:',
+          'Vere dignum et justum est, æquum et salutare, nos tibi semper et ubique gratias agere: Domine sancte, Pater omnipotens, æterne Deus: Qui cum unigenito Filio tuo, et Spiritu Sancto, unus es Deus, unus es Dominus: non in unius singularitate personæ, sed in unius Trinitate substantiæ. Quod enim de tua gloria, revelante te, credimus, hoc de Filio tuo, hoc de Spiritu Sancto, sine differentia discretionis sentimus. Ut in confessione veræ sempiternæque Deitatis, et in personis proprietas, et in essentia unitas, et in majestate adoretur æqualitas. Quam laudant Angeli atque Archangeli, Cherubim quoque ac Seraphim: qui non cessant clamare quotidie, una voce dicentes:',
         translation:
-          'É verdadeiramente digno e justo, razoável e salutar, que Vos demos graças sempre e em toda parte, Senhor santo, Pai todo-poderoso, Deus eterno, por Cristo, nosso Senhor. Por Ele os Anjos louvam a vossa majestade, as Dominações a adoram, as Potestades a temem. Os Céus, as Virtudes dos céus e os bem-aventurados Serafins a celebram com igual júbilo. Com eles, Vos pedimos, permiti que se unam também as nossas vozes, dizendo em humilde louvor:',
+          'É verdadeiramente digno e justo, razoável e salutar, que Vos demos graças sempre e em toda parte, Senhor santo, Pai todo-poderoso, Deus eterno, que, com o vosso Filho unigênito e o Espírito Santo, sois um só Deus e um só Senhor: não na unidade de uma só pessoa, mas na Trindade de uma só substância. Pois o que, por vossa revelação, cremos da vossa glória, isso mesmo cremos do vosso Filho e do Espírito Santo, sem diferença nem distinção. Assim, ao professarmos a verdadeira e eterna Divindade, adoramos a propriedade nas pessoas, a unidade na essência e a igualdade na majestade. A ela louvam os Anjos e os Arcanjos, os Querubins e os Serafins, que não cessam de clamar todos os dias, dizendo a uma só voz:',
       },
       {
         kind: 'rubric',
@@ -632,7 +633,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth. Pleni sunt caeli et terra gloria tua. Hosanna in excelsis. ✠ Benedictus qui venit in nomine Domini. Hosanna in excelsis.',
+          'Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth. Pleni sunt cæli et terra gloria tua. Hosanna in excelsis. ✠ Benedictus qui venit in nomine Domini. Hosanna in excelsis.',
         translation:
           'Santo, Santo, Santo é o Senhor Deus dos Exércitos. Os céus e a terra estão cheios da vossa glória. Hosana nas alturas. ✠ Bendito o que vem em nome do Senhor. Hosana nas alturas.',
       },
@@ -646,7 +647,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Te igitur, clementissime Pater, per Iesum Christum, Filium tuum, Dominum nostrum, supplices rogamus, ac petimus, uti accepta habeas, et benedicas, haec ✠ dona, haec ✠ munera, haec ✠ sancta sacrificia illibata, in primis, quae tibi offerimus pro Ecclesia tua sancta catholica: quam pacificare, custodire, adunare, et regere digneris toto orbe terrarum: una cum famulo tuo Papa nostro N. et Antistite nostro N. et omnibus orthodoxis, atque catholicae et apostolicae fidei cultoribus.',
+          'Te igitur, clementissime Pater, per Jesum Christum, Filium tuum, Dominum nostrum, supplices rogamus, ac petimus, uti accepta habeas, et benedicas, hæc ✠ dona, hæc ✠ munera, hæc ✠ sancta sacrificia illibata, in primis, quæ tibi offerimus pro Ecclesia tua sancta catholica: quam pacificare, custodire, adunare, et regere digneris toto orbe terrarum: una cum famulo tuo Papa nostro N. et Antistite nostro N. et omnibus orthodoxis, atque catholicæ et apostolicæ fidei cultoribus.',
         translation:
           'A Vós, pois, Pai clementíssimo, por Jesus Cristo, vosso Filho e Senhor nosso, humildemente rogamos e pedimos que aceiteis e abençoeis estes ✠ dons, estas ✠ ofertas, estes ✠ santos sacrifícios imaculados, que Vos oferecemos, primeiramente, pela vossa santa Igreja católica: dignai-Vos dar-lhe a paz, guardá-la, uni-la e governá-la em toda a terra, juntamente com o vosso servo, o nosso Papa N., o nosso Bispo N. e todos os ortodoxos que professam a fé católica e apostólica.',
       },
@@ -657,16 +658,20 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Memento, Domine, famulorum famularumque tuarum N. et N. et omnium circumstantium, quorum tibi fides cognita est, et nota devotio, pro quibus tibi offerimus: vel qui tibi offerunt hoc sacrificium laudis, pro se, suisque omnibus: pro redemptione animarum suarum, pro spe salutis et incolumitatis suae: tibique reddunt vota sua aeterno Deo, vivo et vero.',
+          'Memento, Domine, famulorum famularumque tuarum N. et N. et omnium circumstantium, quorum tibi fides cognita est, et nota devotio, pro quibus tibi offerimus: vel qui tibi offerunt hoc sacrificium laudis, pro se, suisque omnibus: pro redemptione animarum suarum, pro spe salutis et incolumitatis suæ: tibique reddunt vota sua æterno Deo, vivo et vero.',
         translation:
           'Lembrai-Vos, Senhor, dos vossos servos e servas N. e N., e de todos os aqui presentes, cuja fé e devoção conheceis, pelos quais Vos oferecemos, ou que Vos oferecem este sacrifício de louvor, por si e por todos os seus, pela redenção de suas almas, pela esperança da sua salvação e conservação, e Vos apresentam os seus votos, a Vós, Deus eterno, vivo e verdadeiro.',
       },
       {
         kind: 'priest',
         latin:
-          'Communicantes, et memoriam venerantes, in primis gloriosae semper Virginis Mariae, Genetricis Dei et Domini nostri Iesu Christi: sed et beatorum Apostolorum ac Martyrum tuorum, Petri et Pauli, Andreae, Iacobi, Ioannis, Thomae, Iacobi, Philippi, Bartholomaei, Matthaei, Simonis et Thaddaei: Lini, Cleti, Clementis, Xysti, Cornelii, Cypriani, Laurentii, Chrysogoni, Ioannis et Pauli, Cosmae et Damiani: et omnium Sanctorum tuorum; quorum meritis precibusque concedas, ut in omnibus protectionis tuae muniamur auxilio. Per eundem Christum Dominum nostrum. Amen.',
+          'Communicantes, et memoriam venerantes, in primis gloriosæ semper Virginis Mariæ, Genetricis Dei et Domini nostri Jesu Christi: sed et beatorum Apostolorum ac Martyrum tuorum, Petri et Pauli, Andreæ, Jacobi, Joannis, Thomæ, Jacobi, Philippi, Bartholomæi, Matthæi, Simonis et Thaddæi: Lini, Cleti, Clementis, Xysti, Cornelii, Cypriani, Laurentii, Chrysogoni, Joannis et Pauli, Cosmæ et Damiani: et omnium Sanctorum tuorum; quorum meritis precibusque concedas, ut in omnibus protectionis tuæ muniamur auxilio. Per eundem Christum Dominum nostrum. Amen.',
         translation:
           'Em comunhão e venerando a memória, primeiramente, da gloriosa sempre Virgem Maria, Mãe de Deus e Senhor nosso Jesus Cristo, e também dos vossos bem-aventurados Apóstolos e Mártires Pedro e Paulo, André, Tiago, João, Tomé, Tiago, Filipe, Bartolomeu, Mateus, Simão e Tadeu, Lino, Cleto, Clemente, Xisto, Cornélio, Cipriano, Lourenço, Crisógono, João e Paulo, Cosme e Damião, e de todos os vossos Santos: por seus méritos e preces, concedei-nos ser sempre fortalecidos com o auxílio da vossa proteção. Pelo mesmo Cristo, nosso Senhor. Amém.',
+      },
+      {
+        kind: 'rubric',
+        text: 'O livro da capela traz no Communicantes também “sed et beati Joseph, ejusdem Virginis Sponsi” (e também de São José, Esposo da mesma Virgem), menção acrescentada em 1962.',
       },
       {
         kind: 'rubric',
@@ -675,14 +680,14 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Hanc igitur oblationem servitutis nostrae, sed et cunctae familiae tuae, quaesumus, Domine, ut placatus accipias: diesque nostros in tua pace disponas, atque ab aeterna damnatione nos eripi, et in electorum tuorum iubeas grege numerari. Per Christum Dominum nostrum. Amen.',
+          'Hanc igitur oblationem servitutis nostræ, sed et cunctæ familiæ tuæ, quæsumus, Domine, ut placatus accipias: diesque nostros in tua pace disponas, atque ab æterna damnatione nos eripi, et in electorum tuorum jubeas grege numerari. Per Christum Dominum nostrum. Amen.',
         translation:
           'Esta oblação, pois, da nossa servidão e de toda a vossa família, nós Vos pedimos, Senhor, que a aceiteis favoravelmente; disponde os nossos dias na vossa paz, livrai-nos da condenação eterna e mandai que sejamos contados no rebanho dos vossos eleitos. Por Cristo, nosso Senhor. Amém.',
       },
       {
         kind: 'priest',
         latin:
-          'Quam oblationem tu, Deus, in omnibus, quaesumus, bene ✠ dictam, adscrip ✠ tam, ra ✠ tam, rationabilem, acceptabilemque facere digneris: ut nobis Cor ✠ pus, et San ✠ guis fiat dilectissimi Filii tui, Domini nostri Iesu Christi.',
+          'Quam oblationem tu, Deus, in omnibus, quæsumus, bene ✠ dictam, adscrip ✠ tam, ra ✠ tam, rationabilem, acceptabilemque facere digneris: ut nobis Cor ✠ pus, et San ✠ guis fiat dilectissimi Filii tui, Domini nostri Jesu Christi.',
         translation:
           'Esta oblação, ó Deus, nós Vos pedimos, dignai-Vos torná-la em tudo aben ✠ çoada, apro ✠ vada, ratifi ✠ cada, digna e aceitável, para que se torne para nós o Cor ✠ po e o San ✠ gue do vosso diletíssimo Filho, nosso Senhor Jesus Cristo.',
       },
@@ -697,7 +702,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Qui pridie quam pateretur, accepit panem in sanctas ac venerabiles manus suas, et elevatis oculis in caelum ad te Deum, Patrem suum omnipotentem, tibi gratias agens, bene ✠ dixit, fregit, deditque discipulis suis, dicens: Accipite, et manducate ex hoc omnes.',
+          'Qui pridie quam pateretur, accepit panem in sanctas ac venerabiles manus suas, et elevatis oculis in cælum ad te Deum, Patrem suum omnipotentem, tibi gratias agens, bene ✠ dixit, fregit, deditque discipulis suis, dicens: Accipite, et manducate ex hoc omnes.',
         translation:
           'Na véspera da sua paixão, tomou o pão em suas santas e veneráveis mãos e, elevando os olhos ao céu, a Vós, Deus, seu Pai todo-poderoso, dando-Vos graças, aben ✠ çoou-o, partiu-o e deu-o aos seus discípulos, dizendo: Tomai e comei todos dele.',
       },
@@ -714,21 +719,21 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Simili modo postquam cenatum est, accipiens et hunc praeclarum Calicem in sanctas ac venerabiles manus suas: item tibi gratias agens, bene ✠ dixit, deditque discipulis suis, dicens: Accipite, et bibite ex eo omnes.',
+          'Simili modo postquam cenatum est, accipiens et hunc præclarum Calicem in sanctas ac venerabiles manus suas: item tibi gratias agens, bene ✠ dixit, deditque discipulis suis, dicens: Accipite, et bibite ex eo omnes.',
         translation:
           'Do mesmo modo, depois de cear, tomando também este precioso Cálice em suas santas e veneráveis mãos, dando-Vos graças de novo, aben ✠ çoou-o e deu-o aos seus discípulos, dizendo: Tomai e bebei todos dele.',
       },
       {
         kind: 'priest',
         latin:
-          'HIC EST ENIM CALIX SANGUINIS MEI, NOVI ET AETERNI TESTAMENTI: MYSTERIUM FIDEI: QUI PRO VOBIS ET PRO MULTIS EFFUNDETUR IN REMISSIONEM PECCATORUM.',
+          'HIC EST ENIM CALIX SANGUINIS MEI, NOVI ET ÆTERNI TESTAMENTI: MYSTERIUM FIDEI: QUI PRO VOBIS ET PRO MULTIS EFFUNDETUR IN REMISSIONEM PECCATORUM.',
         translation:
           'ESTE É O CÁLICE DO MEU SANGUE, DA NOVA E ETERNA ALIANÇA: MISTÉRIO DA FÉ: QUE SERÁ DERRAMADO POR VÓS E POR MUITOS PARA REMISSÃO DOS PECADOS.',
         emphasis: true,
       },
       {
         kind: 'priest',
-        latin: 'Haec quotiescumque feceritis, in mei memoriam facietis.',
+        latin: 'Hæc quotiescumque feceritis, in mei memoriam facietis.',
         translation: 'Todas as vezes que fizerdes isto, fazei-o em memória de mim.',
       },
       {
@@ -744,21 +749,21 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Unde et memores, Domine, nos servi tui, sed et plebs tua sancta, eiusdem Christi Filii tui, Domini nostri, tam beatae passionis, nec non et ab inferis resurrectionis, sed et in caelos gloriosae ascensionis: offerimus praeclarae maiestati tuae de tuis donis, ac datis, hostiam ✠ puram, hostiam ✠ sanctam, hostiam ✠ immaculatam, Panem ✠ sanctum vitae aeternae, et Calicem ✠ salutis perpetuae.',
+          'Unde et memores, Domine, nos servi tui, sed et plebs tua sancta, ejusdem Christi Filii tui, Domini nostri, tam beatæ passionis, nec non et ab inferis resurrectionis, sed et in cælos gloriosæ ascensionis: offerimus præclaræ majestati tuæ de tuis donis, ac datis, hostiam ✠ puram, hostiam ✠ sanctam, hostiam ✠ immaculatam, Panem ✠ sanctum vitæ æternæ, et Calicem ✠ salutis perpetuæ.',
         translation:
           'Por isso, Senhor, nós, vossos servos, e também o vosso povo santo, lembrando-nos da bem-aventurada paixão do mesmo Cristo, vosso Filho e Senhor nosso, da sua ressurreição dos infernos e da sua gloriosa ascensão aos céus, oferecemos à vossa excelsa majestade, dos vossos dons e dádivas, a hóstia ✠ pura, a hóstia ✠ santa, a hóstia ✠ imaculada, o Pão ✠ santo da vida eterna e o Cálice ✠ da salvação perpétua.',
       },
       {
         kind: 'priest',
         latin:
-          'Supra quae propitio ac sereno vultu respicere digneris: et accepta habere, sicuti accepta habere dignatus es munera pueri tui iusti Abel, et sacrificium Patriarchae nostri Abrahae: et quod tibi obtulit summus sacerdos tuus Melchisedech, sanctum sacrificium, immaculatam hostiam.',
+          'Supra quæ propitio ac sereno vultu respicere digneris: et accepta habere, sicuti accepta habere dignatus es munera pueri tui justi Abel, et sacrificium Patriarchæ nostri Abrahæ: et quod tibi obtulit summus sacerdos tuus Melchisedech, sanctum sacrificium, immaculatam hostiam.',
         translation:
           'Dignai-Vos olhar para eles com rosto propício e sereno, e aceitá-los, como Vos dignastes aceitar os dons do vosso servo, o justo Abel, o sacrifício do nosso patriarca Abraão e o que Vos ofereceu o vosso sumo sacerdote Melquisedeque: sacrifício santo, hóstia imaculada.',
       },
       {
         kind: 'priest',
         latin:
-          'Supplices te rogamus, omnipotens Deus: iube haec perferri per manus sancti Angeli tui in sublime altare tuum, in conspectu divinae maiestatis tuae: ut quotquot ex hac altaris participatione sacrosanctum Filii tui Cor ✠ pus, et San ✠ guinem sumpserimus, omni benedictione caelesti et gratia repleamur. Per eundem Christum Dominum nostrum. Amen.',
+          'Supplices te rogamus, omnipotens Deus: jube hæc perferri per manus sancti Angeli tui in sublime altare tuum, in conspectu divinæ majestatis tuæ: ut quotquot ex hac altaris participatione sacrosanctum Filii tui Cor ✠ pus, et San ✠ guinem sumpserimus, omni benedictione cælesti et gratia repleamur. Per eundem Christum Dominum nostrum. Amen.',
         translation:
           'Humildemente Vos suplicamos, Deus todo-poderoso: mandai que estas ofertas sejam levadas pelas mãos do vosso santo Anjo ao vosso altar sublime, na presença da vossa divina majestade, para que todos nós que, participando deste altar, recebermos o sacrossanto Cor ✠ po e San ✠ gue do vosso Filho, sejamos repletos de toda bênção celeste e graça. Pelo mesmo Cristo, nosso Senhor. Amém.',
       },
@@ -769,7 +774,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Memento etiam, Domine, famulorum famularumque tuarum N. et N., qui nos praecesserunt cum signo fidei, et dormiunt in somno pacis. Ipsis, Domine, et omnibus in Christo quiescentibus, locum refrigerii, lucis et pacis, ut indulgeas, deprecamur. Per eundem Christum Dominum nostrum. Amen.',
+          'Memento etiam, Domine, famulorum famularumque tuarum N. et N., qui nos præcesserunt cum signo fidei, et dormiunt in somno pacis. Ipsis, Domine, et omnibus in Christo quiescentibus, locum refrigerii, lucis et pacis, ut indulgeas, deprecamur. Per eundem Christum Dominum nostrum. Amen.',
         translation:
           'Lembrai-Vos também, Senhor, dos vossos servos e servas N. e N., que nos precederam com o sinal da fé e dormem o sono da paz. A eles, Senhor, e a todos os que descansam em Cristo, nós Vos suplicamos que concedais o lugar do refrigério, da luz e da paz. Pelo mesmo Cristo, nosso Senhor. Amém.',
       },
@@ -780,21 +785,25 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Nobis quoque peccatoribus famulis tuis, de multitudine miserationum tuarum sperantibus, partem aliquam et societatem donare digneris, cum tuis sanctis Apostolis et Martyribus: cum Ioanne, Stephano, Matthia, Barnaba, Ignatio, Alexandro, Marcellino, Petro, Felicitate, Perpetua, Agatha, Lucia, Agnete, Caecilia, Anastasia, et omnibus Sanctis tuis: intra quorum nos consortium, non aestimator meriti, sed veniae, quaesumus, largitor admitte. Per Christum Dominum nostrum.',
+          'Nobis quoque peccatoribus famulis tuis, de multitudine miserationum tuarum sperantibus, partem aliquam et societatem donare digneris, cum tuis sanctis Apostolis et Martyribus: cum Joanne, Stephano, Matthia, Barnaba, Ignatio, Alexandro, Marcellino, Petro, Felicitate, Perpetua, Agatha, Lucia, Agnete, Cæcilia, Anastasia, et omnibus Sanctis tuis: intra quorum nos consortium, non æstimator meriti, sed veniæ, quæsumus, largitor admitte. Per Christum Dominum nostrum.',
         translation:
           'Também a nós, pecadores, vossos servos, que esperamos na multidão das vossas misericórdias, dignai-Vos conceder alguma parte e sociedade com os vossos santos Apóstolos e Mártires: com João, Estêvão, Matias, Barnabé, Inácio, Alexandre, Marcelino, Pedro, Felicidade, Perpétua, Águeda, Luzia, Inês, Cecília, Anastácia e todos os vossos Santos. Admiti-nos, nós Vos pedimos, na companhia deles, não pesando os nossos méritos, mas concedendo-nos o perdão. Por Cristo, nosso Senhor.',
       },
       {
         kind: 'priest',
         latin:
-          'Per quem haec omnia, Domine, semper bona creas, sancti ✠ ficas, vivi ✠ ficas, bene ✠ dicis, et praestas nobis.',
+          'Per quem hæc omnia, Domine, semper bona creas, sancti ✠ ficas, vivi ✠ ficas, bene ✠ dicis, et præstas nobis.',
         translation:
           'Por quem, Senhor, sempre criais, santi ✠ ficais, vivi ✠ ficais, aben ✠ çoais e nos concedeis todos estes bens.',
       },
       {
+        kind: 'rubric',
+        text: 'Pequena elevação: o sacerdote ergue juntos a Hóstia e o Cálice no “omnis honor et gloria”. O livro da capela marca aqui um toque de sino.',
+      },
+      {
         kind: 'priest',
         latin:
-          'Per ip ✠ sum, et cum ip ✠ so, et in ip ✠ so, est tibi Deo Patri ✠ omnipotenti, in unitate Spiritus ✠ Sancti, omnis honor, et gloria. Per omnia saecula saeculorum.',
+          'Per ip ✠ sum, et cum ip ✠ so, et in ip ✠ so, est tibi Deo Patri ✠ omnipotenti, in unitate Spiritus ✠ Sancti, omnis honor, et gloria. Per omnia sæcula sæculorum.',
         translation:
           'Por ✠ Ele, com ✠ Ele e n’ ✠ Ele, a Vós, Deus Pai ✠ todo-poderoso, na unidade do Espírito ✠ Santo, toda a honra e toda a glória. Por todos os séculos dos séculos.',
       },
@@ -807,19 +816,20 @@ export const ORDO_MISSAE: OrdoSection[] = [
   },
   {
     title: 'Pater noster e fração',
-    posture: 'kneeling',
+    posture: 'standing',
+    postureNote: 'De pé no Pater noster; ajoelhar-se para as orações antes da Comunhão.',
     lines: [
       {
         kind: 'priest',
         latin:
-          'Oremus. Praeceptis salutaribus moniti, et divina institutione formati, audemus dicere:',
+          'Oremus. Præceptis salutaribus moniti, et divina institutione formati, audemus dicere:',
         translation:
           'Oremos. Instruídos por preceitos salutares e formados pelo ensinamento divino, ousamos dizer:',
       },
       {
         kind: 'priest',
         latin:
-          'Pater noster, qui es in caelis, sanctificetur nomen tuum. Adveniat regnum tuum. Fiat voluntas tua, sicut in caelo et in terra. Panem nostrum quotidianum da nobis hodie. Et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. Et ne nos inducas in tentationem.',
+          'Pater noster, qui es in cælis, sanctificetur nomen tuum. Adveniat regnum tuum. Fiat voluntas tua, sicut in cælo et in terra. Panem nostrum quotidianum da nobis hodie. Et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. Et ne nos inducas in tentationem.',
         translation:
           'Pai nosso, que estais nos céus, santificado seja o vosso nome. Venha a nós o vosso reino. Seja feita a vossa vontade, assim na terra como no céu. O pão nosso de cada dia nos dai hoje. Perdoai-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores. E não nos deixeis cair em tentação.',
       },
@@ -836,7 +846,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Libera nos, quaesumus, Domine, ab omnibus malis, praeteritis, praesentibus, et futuris: et intercedente beata et gloriosa semper Virgine Dei Genetrice Maria, cum beatis Apostolis tuis Petro et Paulo, atque Andrea, et omnibus Sanctis, ✠ da propitius pacem in diebus nostris: ut ope misericordiae tuae adiuti, et a peccato simus semper liberi, et ab omni perturbatione securi. Per eundem Dominum nostrum Iesum Christum, Filium tuum. Qui tecum vivit et regnat in unitate Spiritus Sancti Deus. Per omnia saecula saeculorum.',
+          'Libera nos, quæsumus, Domine, ab omnibus malis, præteritis, præsentibus, et futuris: et intercedente beata et gloriosa semper Virgine Dei Genetrice Maria, cum beatis Apostolis tuis Petro et Paulo, atque Andrea, et omnibus Sanctis, ✠ da propitius pacem in diebus nostris: ut ope misericordiæ tuæ adjuti, et a peccato simus semper liberi, et ab omni perturbatione securi. Per eundem Dominum nostrum Jesum Christum, Filium tuum. Qui tecum vivit et regnat in unitate Spiritus Sancti Deus. Per omnia sæcula sæculorum.',
         translation:
           'Livrai-nos, Senhor, nós Vos pedimos, de todos os males passados, presentes e futuros; e, por intercessão da bem-aventurada e gloriosa sempre Virgem Maria, Mãe de Deus, dos vossos bem-aventurados Apóstolos Pedro e Paulo, de André e de todos os Santos, ✠ dai-nos propício a paz em nossos dias, para que, ajudados pela vossa misericórdia, sejamos sempre livres do pecado e protegidos de toda perturbação. Pelo mesmo nosso Senhor Jesus Cristo, vosso Filho, que convosco vive e reina na unidade do Espírito Santo, Deus, por todos os séculos dos séculos.',
       },
@@ -862,7 +872,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Haec commixtio, et consecratio Corporis et Sanguinis Domini nostri Iesu Christi, fiat accipientibus nobis in vitam aeternam. Amen.',
+          'Hæc commixtio, et consecratio Corporis et Sanguinis Domini nostri Jesu Christi, fiat accipientibus nobis in vitam æternam. Amen.',
         translation:
           'Esta mistura e consagração do Corpo e do Sangue de nosso Senhor Jesus Cristo sirva para a vida eterna a nós que os recebemos. Amém.',
       },
@@ -886,21 +896,21 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Domine Iesu Christe, qui dixisti Apostolis tuis: Pacem relinquo vobis, pacem meam do vobis: ne respicias peccata mea, sed fidem Ecclesiae tuae; eamque secundum voluntatem tuam pacificare et coadunare digneris: Qui vivis et regnas Deus per omnia saecula saeculorum. Amen.',
+          'Domine Jesu Christe, qui dixisti Apostolis tuis: Pacem relinquo vobis, pacem meam do vobis: ne respicias peccata mea, sed fidem Ecclesiæ tuæ; eamque secundum voluntatem tuam pacificare et coadunare digneris: Qui vivis et regnas Deus per omnia sæcula sæculorum. Amen.',
         translation:
           'Senhor Jesus Cristo, que dissestes aos vossos Apóstolos: Deixo-vos a paz, dou-vos a minha paz; não olheis para os meus pecados, mas para a fé da vossa Igreja; e dignai-Vos dar-lhe a paz e a união, segundo a vossa vontade, Vós que viveis e reinais, Deus, por todos os séculos dos séculos. Amém.',
       },
       {
         kind: 'priest',
         latin:
-          'Domine Iesu Christe, Fili Dei vivi, qui ex voluntate Patris, cooperante Spiritu Sancto, per mortem tuam mundum vivificasti: libera me per hoc sacrosanctum Corpus et Sanguinem tuum ab omnibus iniquitatibus meis, et universis malis: et fac me tuis semper inhaerere mandatis, et a te numquam separari permittas: Qui cum eodem Deo Patre et Spiritu Sancto vivis et regnas Deus in saecula saeculorum. Amen.',
+          'Domine Jesu Christe, Fili Dei vivi, qui ex voluntate Patris, cooperante Spiritu Sancto, per mortem tuam mundum vivificasti: libera me per hoc sacrosanctum Corpus et Sanguinem tuum ab omnibus iniquitatibus meis, et universis malis: et fac me tuis semper inhærere mandatis, et a te numquam separari permittas: Qui cum eodem Deo Patre et Spiritu Sancto vivis et regnas Deus in sæcula sæculorum. Amen.',
         translation:
           'Senhor Jesus Cristo, Filho de Deus vivo, que, por vontade do Pai e com a cooperação do Espírito Santo, destes a vida ao mundo pela vossa morte: livrai-me, por este vosso sacrossanto Corpo e Sangue, de todas as minhas iniquidades e de todos os males; fazei que eu permaneça sempre fiel aos vossos mandamentos e não permitais que eu jamais me separe de Vós, que, com o mesmo Deus Pai e o Espírito Santo, viveis e reinais, Deus, pelos séculos dos séculos. Amém.',
       },
       {
         kind: 'priest',
         latin:
-          'Perceptio Corporis tui, Domine Iesu Christe, quod ego indignus sumere praesumo, non mihi proveniat in iudicium et condemnationem: sed pro tua pietate prosit mihi ad tutamentum mentis et corporis, et ad medelam percipiendam: Qui vivis et regnas cum Deo Patre in unitate Spiritus Sancti Deus, per omnia saecula saeculorum. Amen.',
+          'Perceptio Corporis tui, Domine Jesu Christe, quod ego indignus sumere præsumo, non mihi proveniat in judicium et condemnationem: sed pro tua pietate prosit mihi ad tutamentum mentis et corporis, et ad medelam percipiendam: Qui vivis et regnas cum Deo Patre in unitate Spiritus Sancti Deus, per omnia sæcula sæculorum. Amen.',
         translation:
           'A recepção do vosso Corpo, Senhor Jesus Cristo, que eu, indigno, ouso receber, não se torne para mim causa de juízo e condenação; mas, pela vossa bondade, sirva-me de proteção da alma e do corpo e de remédio salutar, Vós que viveis e reinais com Deus Pai, na unidade do Espírito Santo, Deus, por todos os séculos dos séculos. Amém.',
       },
@@ -912,7 +922,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
     lines: [
       {
         kind: 'priest',
-        latin: 'Panem caelestem accipiam, et nomen Domini invocabo.',
+        latin: 'Panem cælestem accipiam, et nomen Domini invocabo.',
         translation: 'Receberei o Pão do céu e invocarei o nome do Senhor.',
       },
       {
@@ -928,20 +938,20 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'priest',
-        latin: 'Corpus Domini nostri Iesu Christi custodiat animam meam in vitam aeternam. Amen.',
+        latin: 'Corpus Domini nostri Jesu Christi custodiat animam meam in vitam æternam. Amen.',
         translation:
           'O Corpo de nosso Senhor Jesus Cristo guarde a minha alma para a vida eterna. Amém.',
       },
       {
         kind: 'priest',
         latin:
-          'Quid retribuam Domino pro omnibus quae retribuit mihi? Calicem salutaris accipiam, et nomen Domini invocabo. Laudans invocabo Dominum, et ab inimicis meis salvus ero.',
+          'Quid retribuam Domino pro omnibus quæ retribuit mihi? Calicem salutaris accipiam, et nomen Domini invocabo. Laudans invocabo Dominum, et ab inimicis meis salvus ero.',
         translation:
           'Que darei ao Senhor por tudo o que Ele me deu? Tomarei o cálice da salvação e invocarei o nome do Senhor. Louvando invocarei o Senhor, e serei salvo dos meus inimigos.',
       },
       {
         kind: 'priest',
-        latin: 'Sanguis Domini nostri Iesu Christi custodiat animam meam in vitam aeternam. Amen.',
+        latin: 'Sanguis Domini nostri Jesu Christi custodiat animam meam in vitam æternam. Amen.',
         translation:
           'O Sangue de nosso Senhor Jesus Cristo guarde a minha alma para a vida eterna. Amém.',
       },
@@ -960,7 +970,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'server',
         latin:
-          'Confiteor Deo omnipotenti, beatae Mariae semper Virgini, beato Michaeli Archangelo, beato Ioanni Baptistae, sanctis Apostolis Petro et Paulo, omnibus Sanctis, et tibi, pater: quia peccavi nimis cogitatione, verbo et opere: mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper Virginem, beatum Michaelem Archangelum, beatum Ioannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et te, pater, orare pro me ad Dominum Deum nostrum.',
+          'Confiteor Deo omnipotenti, beatæ Mariæ semper Virgini, beato Michæli Archangelo, beato Joanni Baptistæ, sanctis Apostolis Petro et Paulo, omnibus Sanctis, et tibi, pater: quia peccavi nimis cogitatione, verbo et opere: mea culpa, mea culpa, mea maxima culpa. Ideo precor beatam Mariam semper Virginem, beatum Michælem Archangelum, beatum Joannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos, et te, pater, orare pro me ad Dominum Deum nostrum.',
         translation: '(O mesmo Confiteor das orações ao pé do altar, com “a vós, padre”.)',
       },
       {
@@ -970,7 +980,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam aeternam.',
+          'Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam æternam.',
         translation:
           'Deus todo-poderoso tenha misericórdia de vós, perdoe os vossos pecados e vos conduza à vida eterna.',
       },
@@ -1013,16 +1023,15 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'priest',
-        latin: 'Corpus Domini nostri Iesu Christi custodiat animam tuam in vitam aeternam. Amen.',
+        latin: 'Corpus Domini nostri Jesu Christi ✠ custodiat animam tuam in vitam æternam. Amen.',
         translation:
-          'O Corpo de nosso Senhor Jesus Cristo guarde a tua alma para a vida eterna. Amém.',
+          'O Corpo de nosso Senhor Jesus Cristo ✠ guarde a tua alma para a vida eterna. Amém.',
       },
     ],
   },
   {
-    title: 'Abluções e Pós-comunhão',
+    title: 'Abluções',
     posture: 'kneeling',
-    postureNote: 'Em muitas capelas os fiéis se sentam durante as abluções.',
     lines: [
       {
         kind: 'priest',
@@ -1034,10 +1043,16 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Corpus tuum, Domine, quod sumpsi, et Sanguis, quem potavi, adhaereat visceribus meis: et praesta; ut in me non remaneat scelerum macula, quem pura et sancta refecerunt sacramenta: Qui vivis et regnas in saecula saeculorum. Amen.',
+          'Corpus tuum, Domine, quod sumpsi, et Sanguis, quem potavi, adhæreat visceribus meis: et præsta; ut in me non remaneat scelerum macula, quem pura et sancta refecerunt sacramenta: Qui vivis et regnas in sæcula sæculorum. Amen.',
         translation:
           'O vosso Corpo, Senhor, que recebi, e o Sangue que bebi, se unam às minhas entranhas; e concedei que não fique em mim mancha alguma de pecado, a mim que fui alimentado por estes puros e santos sacramentos, Vós que viveis e reinais pelos séculos dos séculos. Amém.',
       },
+    ],
+  },
+  {
+    title: 'Antífona da Comunhão e Pós-comunhão',
+    posture: 'standing',
+    lines: [
       {
         kind: 'proper',
         text: 'Antífona da Comunhão: próprio do dia.',
@@ -1063,7 +1078,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'priest',
-        latin: '… Per omnia saecula saeculorum.',
+        latin: '… Per omnia sæcula sæculorum.',
         translation: '… Por todos os séculos dos séculos.',
       },
       {
@@ -1076,7 +1091,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
   {
     title: 'Despedida e Bênção',
     posture: 'kneeling',
-    postureNote: 'Na Missa cantada, de pé até a Bênção; ajoelhar-se para recebê-la.',
+    postureNote: 'De pé no Dominus vobiscum e no Ite, missa est; ajoelhar-se para a bênção.',
     lines: [
       {
         kind: 'priest',
@@ -1109,7 +1124,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Placeat tibi, sancta Trinitas, obsequium servitutis meae: et praesta; ut sacrificium, quod oculis tuae maiestatis indignus obtuli, tibi sit acceptabile, mihique, et omnibus, pro quibus illud obtuli, sit, te miserante, propitiabile. Per Christum Dominum nostrum. Amen.',
+          'Placeat tibi, sancta Trinitas, obsequium servitutis meæ: et præsta; ut sacrificium, quod oculis tuæ majestatis indignus obtuli, tibi sit acceptabile, mihique, et omnibus, pro quibus illud obtuli, sit, te miserante, propitiabile. Per Christum Dominum nostrum. Amen.',
         translation:
           'Seja-Vos agradável, ó Trindade Santa, a homenagem da minha servidão; e concedei que o sacrifício que eu, indigno, ofereci aos olhos da vossa majestade Vos seja aceitável e, pela vossa misericórdia, seja propiciatório para mim e para todos aqueles por quem o ofereci. Por Cristo, nosso Senhor. Amém.',
       },
@@ -1150,7 +1165,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'priest',
-        latin: '✠ Initium sancti Evangelii secundum Ioannem.',
+        latin: '✠ Initium sancti Evangelii secundum Joannem.',
         translation: '✠ Início do santo Evangelho segundo João.',
       },
       {
@@ -1161,7 +1176,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'In principio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in principio apud Deum. Omnia per ipsum facta sunt: et sine ipso factum est nihil, quod factum est: in ipso vita erat, et vita erat lux hominum: et lux in tenebris lucet, et tenebrae eam non comprehenderunt. Fuit homo missus a Deo, cui nomen erat Ioannes. Hic venit in testimonium, ut testimonium perhiberet de lumine, ut omnes crederent per illum. Non erat ille lux, sed ut testimonium perhiberet de lumine. Erat lux vera, quae illuminat omnem hominem venientem in hunc mundum. In mundo erat, et mundus per ipsum factus est, et mundus eum non cognovit. In propria venit, et sui eum non receperunt. Quotquot autem receperunt eum, dedit eis potestatem filios Dei fieri, his, qui credunt in nomine eius: qui non ex sanguinibus, neque ex voluntate carnis, neque ex voluntate viri, sed ex Deo nati sunt.',
+          'In principio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in principio apud Deum. Omnia per ipsum facta sunt: et sine ipso factum est nihil, quod factum est: in ipso vita erat, et vita erat lux hominum: et lux in tenebris lucet, et tenebræ eam non comprehenderunt. Fuit homo missus a Deo, cui nomen erat Joannes. Hic venit in testimonium, ut testimonium perhiberet de lumine, ut omnes crederent per illum. Non erat ille lux, sed ut testimonium perhiberet de lumine. Erat lux vera, quæ illuminat omnem hominem venientem in hunc mundum. In mundo erat, et mundus per ipsum factus est, et mundus eum non cognovit. In propria venit, et sui eum non receperunt. Quotquot autem receperunt eum, dedit eis potestatem filios Dei fieri, his, qui credunt in nomine ejus: qui non ex sanguinibus, neque ex voluntate carnis, neque ex voluntate viri, sed ex Deo nati sunt.',
         translation:
           'No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus. Ele estava no princípio com Deus. Todas as coisas foram feitas por Ele, e sem Ele nada foi feito do que foi feito. N’Ele estava a vida, e a vida era a luz dos homens; e a luz brilha nas trevas, e as trevas não a compreenderam. Houve um homem enviado por Deus, cujo nome era João. Ele veio como testemunha, para dar testemunho da luz, a fim de que todos cressem por meio dele. Ele não era a luz, mas veio para dar testemunho da luz. Era a luz verdadeira, que ilumina todo homem que vem a este mundo. Estava no mundo, e o mundo foi feito por Ele, e o mundo não O conheceu. Veio para o que era seu, e os seus não O receberam. Mas a todos os que O receberam deu o poder de se tornarem filhos de Deus, aos que creem no seu nome, os quais não nasceram do sangue, nem da vontade da carne, nem da vontade do homem, mas de Deus.',
       },
@@ -1172,7 +1187,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'ET VERBUM CARO FACTUM EST, et habitavit in nobis: et vidimus gloriam eius, gloriam quasi Unigeniti a Patre, plenum gratiae et veritatis.',
+          'ET VERBUM CARO FACTUM EST, et habitavit in nobis: et vidimus gloriam ejus, gloriam quasi Unigeniti a Patre, plenum gratiæ et veritatis.',
         translation:
           'E O VERBO SE FEZ CARNE, e habitou entre nós; e vimos a sua glória, glória como do Unigênito do Pai, cheio de graça e de verdade.',
       },
@@ -1196,21 +1211,21 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Ave Maria, gratia plena, Dominus tecum; benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus.',
+          'Ave Maria, gratia plena, Dominus tecum; benedicta tu in mulieribus, et benedictus fructus ventris tui, Jesus.',
         translation:
           'Ave Maria, cheia de graça, o Senhor é convosco; bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, Jesus.',
       },
       {
         kind: 'server',
         latin:
-          'Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.',
+          'Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostræ. Amen.',
         translation:
           'Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém.',
       },
       {
         kind: 'priest',
         latin:
-          'Salve, Regina, Mater misericordiae; vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Hevae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria.',
+          'Salve, Regina, Mater misericordiæ; vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Hevæ. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Jesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria.',
         translation:
           'Salve, Rainha, Mãe de misericórdia, vida, doçura e esperança nossa, salve! A vós bradamos, os degredados filhos de Eva. A vós suspiramos, gemendo e chorando neste vale de lágrimas. Eia, pois, advogada nossa, esses vossos olhos misericordiosos a nós volvei. E depois deste desterro mostrai-nos Jesus, bendito fruto do vosso ventre. Ó clemente, ó piedosa, ó doce sempre Virgem Maria.',
       },
@@ -1227,7 +1242,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Oremus. Deus, refugium nostrum et virtus, populum ad te clamantem propitius respice; et intercedente gloriosa et immaculata Virgine Dei Genetrice Maria, cum beato Ioseph, eius Sponso, ac beatis Apostolis tuis Petro et Paulo, et omnibus Sanctis, quas pro conversione peccatorum, pro libertate et exaltatione sanctae Matris Ecclesiae, preces effundimus, misericors et benignus exaudi. Per eundem Christum Dominum nostrum.',
+          'Oremus. Deus, refugium nostrum et virtus, populum ad te clamantem propitius respice; et intercedente gloriosa et immaculata Virgine Dei Genetrice Maria, cum beato Joseph, ejus Sponso, ac beatis Apostolis tuis Petro et Paulo, et omnibus Sanctis, quas pro conversione peccatorum, pro libertate et exaltatione sanctæ Matris Ecclesiæ, preces effundimus, misericors et benignus exaudi. Per eundem Christum Dominum nostrum.',
         translation:
           'Oremos. Ó Deus, nosso refúgio e nossa força, olhai propício para o povo que a Vós clama; e, pela intercessão da gloriosa e imaculada Virgem Maria, Mãe de Deus, de São José, seu Esposo, dos vossos bem-aventurados Apóstolos Pedro e Paulo e de todos os Santos, ouvi, misericordioso e benigno, as preces que Vos dirigimos pela conversão dos pecadores e pela liberdade e exaltação da santa Mãe Igreja. Pelo mesmo Cristo, nosso Senhor.',
       },
@@ -1239,7 +1254,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       {
         kind: 'priest',
         latin:
-          'Sancte Michael Archangele, defende nos in proelio; contra nequitiam et insidias diaboli esto praesidium. Imperet illi Deus, supplices deprecamur: tuque, Princeps militiae caelestis, Satanam aliosque spiritus malignos, qui ad perditionem animarum pervagantur in mundo, divina virtute in infernum detrude.',
+          'Sancte Michael Archangele, defende nos in proelio; contra nequitiam et insidias diaboli esto præsidium. Imperet illi Deus, supplices deprecamur: tuque, Princeps militiæ cælestis, Satanam aliosque spiritus malignos, qui ad perditionem animarum pervagantur in mundo, divina virtute in infernum detrude.',
         translation:
           'São Miguel Arcanjo, defendei-nos no combate; sede o nosso refúgio contra a maldade e as ciladas do demônio. Ordene-lhe Deus, instantemente o pedimos; e vós, Príncipe da milícia celeste, pela virtude divina, precipitai no inferno Satanás e os outros espíritos malignos que andam pelo mundo para perder as almas.',
       },
@@ -1254,7 +1269,7 @@ export const ORDO_MISSAE: OrdoSection[] = [
       },
       {
         kind: 'priest',
-        latin: 'Cor Iesu sacratissimum,',
+        latin: 'Cor Jesu sacratissimum,',
         translation: 'Sacratíssimo Coração de Jesus,',
       },
       {

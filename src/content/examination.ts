@@ -95,7 +95,7 @@ export const EXAMINATION_OF_CONSCIENCE: ExaminationSection[] = [
       'Deixei de me confessar ao menos uma vez por ano?',
       'Deixei de comungar no tempo pascal?',
       'Desrespeitei sem motivo o jejum e a abstinência de carne nos dias determinados?',
-      'Comunguei sem guardar o jejum eucarístico (tradicionalmente, desde a meia-noite)?',
+      'Comunguei sem guardar o jejum eucarístico (uma hora antes da comunhão; aconselham-se três horas para os alimentos sólidos)?',
       'Deixei de ajudar a Igreja nas suas necessidades, conforme as minhas possibilidades?',
     ],
   },

@@ -5,13 +5,13 @@ import type { MemoryBlock } from '../types';
 export const CONFITEOR_BLOCKS: MemoryBlock[] = [
   {
     title: 'Confesso a Deus e a Maria',
-    latin: 'Confiteor Deo omnipotenti, beatae Mariae semper Virgini,',
+    latin: 'Confiteor Deo omnipotenti, beatæ Mariæ semper Virgini,',
     translation: 'Eu confesso a Deus todo-poderoso, à bem-aventurada sempre Virgem Maria,',
     tip: 'Começa por Deus e por Nossa Senhora.',
   },
   {
     title: 'Miguel e João Batista',
-    latin: 'beato Michaeli Archangelo, beato Ioanni Baptistae,',
+    latin: 'beato Michæli Archangelo, beato Joanni Baptistæ,',
     translation: 'ao bem-aventurado São Miguel Arcanjo, ao bem-aventurado São João Batista,',
     tip: 'Dois “beato”: Miguel e João.',
   },
@@ -36,7 +36,7 @@ export const CONFITEOR_BLOCKS: MemoryBlock[] = [
   {
     title: 'Por isso peço (a mesma lista)',
     latin:
-      'Ideo precor beatam Mariam semper Virginem, beatum Michaelem Archangelum, beatum Ioannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos,',
+      'Ideo precor beatam Mariam semper Virginem, beatum Michælem Archangelum, beatum Joannem Baptistam, sanctos Apostolos Petrum et Paulum, omnes Sanctos,',
     translation:
       'Por isso, peço à bem-aventurada sempre Virgem Maria, ao bem-aventurado São Miguel Arcanjo, ao bem-aventurado São João Batista, aos santos Apóstolos Pedro e Paulo, a todos os Santos,',
     tip: 'É a mesma lista dos blocos 1 a 3, sem Deus, com terminações em -am, -em, -um, -os.',
@@ -78,9 +78,9 @@ export const CONFITEOR_STRUCTURE: { lead: string; items: string[]; result?: stri
 
 /** Case endings that change between the first and the second list. */
 export const CONFITEOR_ENDING_SHIFTS: [string, string][] = [
-  ['Mariae', 'Mariam'],
-  ['Michaeli', 'Michaelem'],
-  ['Ioanni', 'Ioannem'],
+  ['Mariæ', 'Mariam'],
+  ['Michæli', 'Michælem'],
+  ['Joanni', 'Joannem'],
   ['Apostolis', 'Apostolos'],
   ['omnibus Sanctis', 'omnes Sanctos'],
   ['tibi', 'te'],
